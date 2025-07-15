@@ -69,3 +69,28 @@ console.log(typeof -Infinity);     // number
 console.log(typeof 0);             // number
 console.log(typeof 1);             // number
 console.log(typeof 2);             // number
+
+
+/*
+配列 ------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(array);  // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+console.log(array[0]); // 1
+console.log(array[1]); // 2
+console.log(array[2]); // 3
+console.log(array[3]); // 4
+console.log(array[4]); // 5
+console.log(array[5]); // 6
+console.log(array[6]); // 7
+console.log(array[7]); // 8
+console.log(array[8]); // 9
+console.log(array[9]); // 10
+
+
+
+/*
+ループ文 ------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
