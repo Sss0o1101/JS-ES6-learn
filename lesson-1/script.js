@@ -129,3 +129,28 @@ const questions2 = [
 questions2.forEach((question) => {
     console.log(question);
 });
+
+
+
+/*
+条件文 ------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+let isLogin = false;
+
+if (isLogin === false) {
+    console.log('ログインしてください');
+} else {
+    console.log('ログインしました');
+}
+
+
+const userType = 'member';  // member, admin, owner, guest
+
+if (userType === 'member') {
+    console.log('アクセスできません');
+} else if (userType === 'admin') {
+    console.log('今から10分だけアクセスできます');
+} else {
+    console.log('アクセス成功');
+}
