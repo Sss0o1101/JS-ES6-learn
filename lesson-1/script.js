@@ -116,3 +116,16 @@ for (let index = 0; index < questions.length; index++) {
 console.log(questions[0]);
 console.log(questions[1]);
 console.log(questions[2]);
+
+
+// forEach -------------------------------------------------------
+
+const questions2 = [
+    '現在のアメリカの大統領の名前は？',
+    '令和8年は西暦で言うと何年？',
+    '最も人口が多い都市はどこ？'
+];
+
+questions2.forEach((question) => {
+    console.log(question);
+});
