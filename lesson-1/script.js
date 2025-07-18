@@ -94,3 +94,25 @@ console.log(array[9]); // 10
 /*
 ループ文 ------------------------------------------------------------------------------------------------------------------------------------------------------
 */
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+
+}
+
+// --------------------------------------------------------------
+
+const questions = [
+    '現在の日本の総理利大臣の名前は？',
+    '令和7年は西暦で言うと何年？',
+    '最も人口が多い国はどこ？'
+];
+
+for (let index = 0; index < questions.length; index++) {
+    console.log(questions[index]);
+}
+
+// 同じ
+console.log(questions[0]);
+console.log(questions[1]);
+console.log(questions[2]);
