@@ -132,6 +132,7 @@ questions2.forEach((question) => {
 
 
 
+
 /*
 条件文 ------------------------------------------------------------------------------------------------------------------------------------------------------
 */
@@ -154,3 +155,25 @@ if (userType === 'member') {
 } else {
     console.log('アクセス成功');
 }
+
+// --------------------------------------------------------------
+
+myMoney = 1000;
+
+let isShoping = false;
+
+if (myMoney >= 500) {
+    isShoping = !isShoping;
+} else {
+    console.log(isShoping);
+}
+
+// myMoney = 1000;
+
+// let isShoping = false;
+
+// if (myMoney >= 500) {
+//     isShoping = true;
+// } else {
+//     console.log(isShoping);
+// }
