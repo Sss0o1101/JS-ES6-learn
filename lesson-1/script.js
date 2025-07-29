@@ -193,3 +193,19 @@ const add = (a, b) => {
     return a + b;
 }
 console.log(add(1, 2)); // 3
+
+
+// 例  --------------------------------------------------------------------
+
+if (new Date().getHours() > 12) {
+    document.body.style.backgroundColor = '#000';
+}
+
+// 関数化
+function changeDarkMode () {
+    if (new Date().getHours() > 12) {
+        document.body.style.backgroundColor = '#000';
+    }
+}
+
+changeDarkMode(); 
