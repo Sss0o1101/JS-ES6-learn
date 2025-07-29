@@ -208,4 +208,19 @@ function changeDarkMode () {
     }
 }
 
-changeDarkMode(); 
+changeDarkMode();
+
+
+// 引数  --------------------------------------------------------------------
+
+function changeDarkMode2 (time) {
+    if (new Date().getHours() > time) {
+        document.body.style.backgroundColor = color;
+    }
+}
+
+if (season === 'winter') {
+    changeDarkMode2(18);
+} else {
+    changeDarkMode2(20);
+}
