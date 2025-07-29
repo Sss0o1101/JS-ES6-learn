@@ -224,3 +224,18 @@ if (season === 'winter') {
 } else {
     changeDarkMode2(20);
 }
+
+
+// デフォルト値  ---------------------------------------------------------------
+
+function changeDarkMode3 (time = 18) {
+    if (new Date().getHours() > time) {
+        document.body.style.backgroundColor = color;
+    }
+}
+
+// オブジェクトを使った関数
+changeDarkMode({
+    time: 18,
+    color: '#333'
+});
