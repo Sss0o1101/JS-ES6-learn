@@ -239,3 +239,23 @@ const getSeason = () => {
 
 const season = getSeason();
 console.log(season);
+
+
+// ----------------------------------------------------------------------
+
+const metalBurst = (lastDamage) => {
+    return lastDamage * 1.5;
+}
+
+metalBurst(50);
+
+
+const hornDrill = (theirHP) => {
+    if (Math.random() <= 0.3) {    // 30%の確率でHPを返す , >= 0.7でも良い
+        return theirHP;
+    } else {
+        return 0;
+    }
+}
+
+hornDrill(100)
