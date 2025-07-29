@@ -220,3 +220,22 @@ changeDarkMode({
   time: 18,
   color: "#333",
 });
+
+
+// 戻り値---------------------------------------------------------------
+
+const getSeason = () => {
+    const month = new Date().getMonth() + 1;
+    if (month >= 3 && month <= 5) {
+        return 'spring';
+    } else if (month >= 6 && month <= 8) {
+        return 'summer';
+    } else if (month >= 9 && month <= 11) {
+        return 'autumn';
+    } else {
+        return 'winter';
+    }
+}
+
+const season = getSeason();
+console.log(season);
