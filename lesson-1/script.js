@@ -294,4 +294,7 @@ const snsUser = {
 };
 
 console.log(snsUser.like());
+//objectに配列
 console.log(snsUser.followers[0]);
+//objectにobject
+console.log(snsUser.settings.darkMode);
