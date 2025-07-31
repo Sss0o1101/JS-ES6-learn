@@ -271,10 +271,12 @@ const snsUser = {
     id: 1,
     username: 'Taro',
     gender: 'male',
-    like: function (params) {
+    like: function () {
 
     },
-    post: function (params) {
+    post: function () {
 
     }
 };
+
+console.log(snsUser.like());
