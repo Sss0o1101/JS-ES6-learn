@@ -298,3 +298,14 @@ console.log(snsUser.like());
 console.log(snsUser.followers[0]);
 //objectにobject
 console.log(snsUser.settings.darkMode);
+
+
+// this ---------------------------------------------------------------
+
+const snsUser2 = {
+  id: 1,
+  userName: 'Taro',
+  post: function name(contents) {
+    return contents + 'を投稿しました by ...';
+  }
+}
