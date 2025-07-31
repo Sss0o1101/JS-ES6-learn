@@ -311,3 +311,20 @@ const snsUser2 = {
 }
 
 console.log(snsUser2.post('プログラミングなう。'));
+
+
+// ----------------------------------------------------------------------
+
+const pikachu = {
+  name: "ピカチュウ",
+  level: 18,
+  types: ['でんき'],
+  skills: ['10万ボルト', 'でんこうせっか', 'たいあたり']
+}
+
+console.log(pikachu.name);  // ピカチュウ
+console.log(pikachu.level); // 18
+console.log(pikachu.types); // ['でんき']
+console.log(pikachu.skills); // ['10万ボルト', 'でんこうせっか', 'たいあたり']
+
+
