@@ -305,7 +305,9 @@ console.log(snsUser.settings.darkMode);
 const snsUser2 = {
   id: 1,
   userName: 'Taro',
-  post: function name(contents) {
-    return contents + 'を投稿しました by ...';
+  post: function (contents) {
+    return contents + 'を投稿しました by ...' + this.userName;
   }
 }
+
+console.log(snsUser2.post('プログラミングなう。'));
