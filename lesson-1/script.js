@@ -276,7 +276,15 @@ const snsUser = {
     },
     post: function () {
 
-    }
+    },
+    followers :['Taro', 'Jiro', 'Saburo'],
+    following :['Taro', 'Jiro', 'Saburo'],
+    isFollowing : false,
+    isFollowed : false,
+    isLiked : false,
+    isPost : false,
+    isComment : false,
 };
 
 console.log(snsUser.like());
+console.log(snsUser.followers[0]); 
