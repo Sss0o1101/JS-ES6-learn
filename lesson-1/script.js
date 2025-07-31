@@ -328,3 +328,27 @@ console.log(pikachu.types); // ['でんき']
 console.log(pikachu.skills); // ['10万ボルト', 'でんこうせっか', 'たいあたり']
 
 
+// ----------------------------------------------------------------------
+
+const pikachu2 = {
+  name: "ピカチュウ",
+  level: 18,
+  types: ['でんき'],
+  skills: ['10万ボルト', 'でんこうせっか', 'たいあたり'],
+  levelUp: function () {
+    this.level++;
+    if (this.level >= 20) {
+      this.skills.push('スパーク');
+    }
+  }
+}
+
+console.log(pikachu2.level); // 18
+console.log(pikachu2.skills); // ['10万ボルト', 'でんこうせっか', 'たいあたり']
+
+pikachu2.levelUp();
+console.log(pikachu2.level); // 19
+console.log(pikachu2.skills); // ['10万ボルト', 'でんこうせっか', 'たいあたり']
+
+pikachu2.levelUp();
+console.log(pikachu2.level); // 20
