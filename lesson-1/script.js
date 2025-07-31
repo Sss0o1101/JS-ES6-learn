@@ -284,7 +284,14 @@ const snsUser = {
     isLiked : false,
     isPost : false,
     isComment : false,
+    settings : {
+        notification : true,
+        darkMode : true,
+        language : 'ja',
+        theme : 'light',
+        fontSize : 16,
+    }
 };
 
 console.log(snsUser.like());
-console.log(snsUser.followers[0]); 
+console.log(snsUser.followers[0]);
