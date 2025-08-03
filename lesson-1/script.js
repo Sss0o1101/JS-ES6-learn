@@ -360,3 +360,53 @@ console.log(pikachu2.level); // 20
 */
 
 
+class Pokemon {
+  constructor(name, level, types, skills) {
+    this.name = name;
+    this.level = level;
+    this.types = types;
+    this.skills = skills;
+  }
+
+  levelUp() {
+    this.level++;
+    if (this.level >= 20) {
+      this.skills.push('スパーク');
+    }
+  }
+
+  attack() {
+    return this.skills[Math.floor(Math.random() * this.skills.length)];
+  }
+
+  getLevel() {
+    return this.level;
+  }
+
+  getSkills() {
+    return this.skills;
+  }
+
+  getTypes() {
+    return this.types;
+  }
+}
+
+const pikachu3 = new Pokemon('ピカチュウ', 18, ['でんき'], ['10万ボルト', 'でんこうせっか', 'たいあたり']);
+
+console.log(pikachu3.name); // ピカチュウ
+console.log(pikachu3.level); // 18
+console.log(pikachu3.types); // ['でんき']
+console.log(pikachu3.skills); // ['10万ボルト', 'でんこうせっか', 'たいあたり']
+
+
+pikachu3.levelUp();
+console.log(pikachu3.level); // 19
+console.log(pikachu3.skills); // ['10万ボルト', 'でんこうせっか', 'たいあたり']
+
+
+pikachu3.levelUp();
+console.log(pikachu3.level); // 20
+console.log(pikachu3.skills); // ['10万ボルト', 'でんこうせっか', 'たいあたり']
+
+console.log(pikachu3.attack()); // 10万ボルト
