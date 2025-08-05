@@ -7,3 +7,5 @@ const snsUser2 = {
 }
 
 console.log(snsUser2.post('プログラミングなう。'));
+
+// --------
