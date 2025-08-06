@@ -605,3 +605,44 @@
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* クラスの外からは実行することができないメソッドを定義する方法について見ていきます。 --------------------------------------------------------------------------------------------------------------------------------*/
+
+
+  class User {
+    //フィールド
+    name;
+    #score;
+
+    constructor (name, score) {
+      this.name = name;
+      this.score = score;
+    }
+
+    get score() {
+      return this.#score;
+    }
+
+    #isValueValid(newValue) {
+      return newValue >= 0 && newValue <= 100 ? false : true;
+    }
+
+    set score(newValue) {
+      if (this.#isValueValid(newValue) === false) {
+        console.log('Invalid value!');
+        return
+      }
+      this.#score = newValue;
+    }
+
+  }
+
+  const user = new User('Taro', 70);
+  user.score = 999; //Invalid value!
+  console.log(user.score); //70
+  console.log(user.isValueValid(999)); //true
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
