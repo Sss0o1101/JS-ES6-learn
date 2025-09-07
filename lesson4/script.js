@@ -200,3 +200,54 @@
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
+
+/* 前回の判定処理を別メソッドとして切り出す方法 ------------------------------------------------------------------------------------------*/
+
+  {
+
+    class Score {
+      constructor(subject, result) {
+        this.subject = subject;
+        this.result = result;
+      }
+
+      //grade を求める処理を作成
+      getGrade () {
+        // let grade;
+        // if (this.result >= 80) {
+        //   grade = 'A';
+        // } else {
+        //   grade = 'B';
+        // }
+        // return grade;
+
+        return this.result >= 80 ? 'A' : 'B';  //簡単に書ける //条件演算子
+      }
+
+      getScoreString () {
+        return `${this.subject} ${this.result} ${this.getGrade()}`;  //gradeの追加 //メソッドから同じクラス内に定義されたメソッドを使うには、this. を付ける必要がある。
+      }
+    }
+
+    class User {
+      constructor (name, score) {
+        this.name = name;
+        this.score = score;
+      }
+      getUserString() {
+        // return `${this.name} ${this.score}`;
+        // return `${this.name} ${this.score.subject} ${this.score.result}`; // 修正点: 科目と点数を表示
+        return `${this.name} ${this.score.getScoreString()}`;
+      }
+    }
+
+    //こちらの点数に科目の情報も含めたくなったので、Score というデータ型を作ってプログラムを拡張
+    const user1 = new User('Taro', new Score('Math', 70));
+    const user2 = new User('Jiro', new Score('English', 80) );
+
+    console.log(user1.getUserString());  //Taro Math 70 B
+    console.log(user2.getUserString());  //jiro English 80 A
+
+  }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
