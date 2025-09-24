@@ -31,3 +31,26 @@
   }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
+
+/* ifの条件分岐では真偽値が期待されているので、真偽値そのものを渡して処理する方法 ------------------------------------------------------------------------------------------*/
+
+
+  {
+
+    let isDevMode = true;
+    const pElement = document.querySelector('p');
+    const btnElement = document.querySelector('button');
+
+    btnElement.addEventListener('click', () => {
+      if(confirm('Are you sure?') === true) {
+        if (isDevMode) {
+          pElement.textContent = 'Dev Mode is Off.';
+        } else {
+          pElement.textContent = 'Dev Mode is On.';
+        }
+        isDevMode = !isDevMode
+      }
+    });
+
+  }
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
