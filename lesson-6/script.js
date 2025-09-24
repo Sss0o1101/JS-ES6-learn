@@ -54,3 +54,27 @@
 
   }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* 関数の処理を途中で抜けることができる早期リターンに真偽値を使う方法を見ていく。 ------------------------------------------------------------------------------------------*/
+
+  let isDevMode = true;
+  const pElement = document.querySelector('p');
+  const btnElement = document.querySelector('button');
+
+  btnElement.addEventListener('click', () => {
+    // if(confirm('Are you sure?') === false) {
+    if(!confirm('Are you sure?')) {             //同じ意味
+      return;
+    }
+
+    if (isDevMode) {
+      pElement.textContent = 'Dev Mode is Off.';
+    } else {
+      pElement.textContent = 'Dev Mode is On.';
+    }
+    isDevMode = !isDevMode
+
+  });
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
