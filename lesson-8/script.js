@@ -59,16 +59,36 @@
   //slice()・・・文字列から一部を切り出す
   //substring()・・・同じ
 
-  const emails = [
+  const emails2 = [
     'taro@example.com',
     'kintaro@example.com',
     'kojiro@example.com',
   ];
 
-  emails.forEach((email) => {
+  emails2.forEach((email) => {
     const loc = email.indexOf('@');
-    // console.log(email.slice(0, loc));
+    // console.log(email2.slice(0, loc));
     console.log(email.substring(0, loc));
+  });
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* 文字列の一部を置換したり、区切り文字で分割する方法  ------------------------------------------------------------------------------------------*/
+
+  //replace()・・・文字列の一部を置換  //replaceAll()
+  //split()・・・区切り文字で分割
+
+   const emails3 = [
+    'taro@example.com',
+    'kintaro@example.com',
+    'kojiro@example.com',
+  ];
+
+  emails3.forEach((email) => {
+    // console.log(email3.replace('@example.com', ''));
+    const items = email.split('@');
+    console.log(items[0]);
   });
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
