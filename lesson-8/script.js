@@ -16,12 +16,39 @@
     //.toUpperCase()・・・小文字を大文字に変換
     //.trim()・・・空白の除去
 
-    const string = prompt('Name?');
-    // if (string.toLowerCase() === 'taro')
-    if (string.toUpperCase().trim() === 'TARO') {
+    const string1 = prompt('Name?');
+    // if (string1.toLowerCase() === 'taro')
+    if (string1.toUpperCase().trim() === 'TARO') {
         console.log('Correct!');
     } else {
         console.log('Wrong!');
     }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* 文字列の配列を処理しながら、includes()、indexOf()、startsWith()の使い方 ------------------------------------------------------------------------------------------*/
+
+    //.includes()・・・特定の要素が配列や文字列に含まれているかどうか確認
+    //.indexOf()・・・文字列を先頭から検索する   //.lastindexOf()・・・文字列を最後から検索する
+    //.startsWith()・・・文字列の先頭を調べる   //.endsWith()・・・文字列の末尾を調べる
+
+    const emails = [
+    'taro@example.com',
+    'kintaro@example.com',
+    'kojiro@example.com',
+    ];
+
+    emails.forEach((email) => {
+    // if (email.includes('taro') === true) {  //trueは付けなくても良い
+    //   console.log(email);
+    // }
+    // if (email.indexOf('taro') === 0) {
+    //   console.log(email);
+    // }
+    if (email.startsWith('taro') === true) {
+      console.log(email);
+    }
+  });
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
