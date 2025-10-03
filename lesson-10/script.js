@@ -18,3 +18,13 @@
       // クリック回数を表示
       counter.textContent = n;
     });
+
+    // リセットボタンをクリックしたときの処理
+    reset.addEventListener('click', () => {
+      // カウンターを0に戻す
+      n = 0;
+      // カウンターを表示
+      counter.textContent = n;
+      // ハートのサイズを元に戻す
+      heart.classList.remove('large');
+    });
