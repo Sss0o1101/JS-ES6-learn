@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body {
+    user-select: none;
+}
+
+i {
+    color: red;
+    font-size: 20px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+i.large {
+    font-size: 32px;
+}
+
+span {
+    font-size: 20px;
+    color: #aaa;
+}
