@@ -163,3 +163,24 @@
   console.log(typeof v);
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* 真偽値の使い方について見ていきます。 ------------------------------------------------------------------------------------------*/
+
+  const isDevMode = true;
+  console.log(typeof isDevMode);
+
+  const isDevMode = false;
+  console.log(typeof isDevMode);
+
+  const isDevMode = undefined;
+  console.log(typeof isDevMode);
+
+  const isDevMode = null;
+  console.log(typeof isDevMode);
+
+  const isDevMode = 'dev';
+  console.log(typeof isDevMode);
+
+  const isDevMode = 1;
+  console.log(typeof isDevMode);
