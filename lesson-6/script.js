@@ -153,5 +153,13 @@
   const y = 'Hello';
   console.log(typeof y);
 
+  const z = true;
+  console.log(typeof z);
+
+  const w = undefined;
+  console.log(typeof w);
+
+  const v = null;
+  console.log(typeof v);
+
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
-  
