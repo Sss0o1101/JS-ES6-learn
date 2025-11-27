@@ -10,3 +10,7 @@ i {
     margin-right: 4px;
     cursor: pointer;
 }
+
+i.large {
+    font-size: 32px;
+}
