@@ -50,3 +50,16 @@
     });
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*  .querySelectorAll() ------------------------------------------------------------------------------------------*/
+    //querySelectorAllは配列である。
+
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', () => {
+        // document.querySelectorAll('li')[0].textContent = 'Changed!'
+        document.querySelectorAll('li').forEach( (li) => {
+            li.textContent = 'Changed!'
+        });
+    });
