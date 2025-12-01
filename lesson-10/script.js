@@ -63,3 +63,17 @@
             li.textContent = 'Changed!'
         });
     });
+
+/*  querySelectorAll() (2) ------------------------------------------------------------------------------------------*/
+
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', () => {
+        document.querySelector('#second').textContent = 'Changed!!!!!'
+        // document.querySelectorAll('li')[1].textContent = 'Changed!!!!!'
+        document.querySelectorAll('.target').forEach( (li) => {
+            li.textContent = 'Changed!!!'
+        });
+    });
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
