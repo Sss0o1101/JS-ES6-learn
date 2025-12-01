@@ -77,3 +77,26 @@
     });
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*  document.createElement() / appendChild() / insertBefore() ------------------------------------------------------------------------------------------*/
+
+    //document.createElement('');
+    //insertBefore()  //親Node.insertBefore(追加Node, 参照Node)
+    //親Node.appendChild(追加Node)
+
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', () => {
+        const liElement = document.createElement('li');
+        liElement.textContent = 'Hanako'
+
+        // document.querySelector('ul').appendChild(liElement);  //ulの一番下の子要素に'Hanako'を追加
+        // document.querySelector('ul').insertBefore(liElement, document.querySelector('#second'));  ////ulのJiroの上に'Hanako'を追加
+
+        if (confirm('Sure?') === true) {
+            document.querySelector('#second').remove()
+        }
+    });
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
