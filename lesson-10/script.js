@@ -167,3 +167,19 @@
     });
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*  inputイベントを使ってみよう  ------------------------------------------------------------------------------------------*/
+
+    //input → text, textarea, select
+    //change → radio, checkbox
+
+    const inputElement = document.querySelector('input');
+    const pElement = document.querySelector('p');
+
+    inputElement.addEventListener('input', () => {
+        // pElement.textContent = inputElement.value;
+        pElement.textContent = inputElement.value.length;
+    });
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
