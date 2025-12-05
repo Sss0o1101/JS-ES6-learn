@@ -183,3 +183,19 @@
     });
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*  focus,blurイベントを使ってみよう  ------------------------------------------------------------------------------------------*/
+
+    const inputElement = document.querySelector('input');
+    const pElement = document.querySelector('p');
+
+    inputElement.addEventListener('focus', () => {
+        pElement.textContent = 'English only!'
+    });
+    inputElement.addEventListener('blur', () => {
+        pElement.textContent = ''
+    });
+    // inputElement.focus();  //常にフォーカスが当たる
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
