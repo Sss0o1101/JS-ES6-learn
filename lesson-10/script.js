@@ -225,18 +225,3 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-/*  submitイベントを使ってみよう  ------------------------------------------------------------------------------------------*/
-
-    const formElement = document.querySelector('form');
-    const inputElement = document.querySelector('input');
-    const pElement = document.querySelector('p');
-
-    formElement.addEventListener('submit', (event) => {
-        event.preventDefault;
-        pElement.textContent = inputElement.value;
-    });
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
