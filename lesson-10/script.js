@@ -102,23 +102,4 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-/* フォーム部品の値にアクセス ------------------------------------------------------------------------------------------*/
-
-    const button = document.querySelector('button');
-
-    button.addEventListener('click', () => {
-        alert(document.querySelector('input').value);
-        alert(document.querySelector('textarea').value);
-        // document.querySelector('textarea').value = '';
-    });
-
-    // //Noコード
-    // const noButton = document.querySelector('#no');
-    // noButton.addEventListener('click', () => {
-    //     document.querySelector('input').value = ''
-    //     document.querySelector('textarea').value = '';
-    // });
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
+-----------------------------------------------------------------------------------------------------------------------------------*/
