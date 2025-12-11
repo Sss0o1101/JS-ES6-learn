@@ -33,22 +33,3 @@
         p.classList.remove('green-color');
     });
 
-/* .classList (2) ------------------------------------------------------------------------------------------*/
-    // console.log(p.classList.contains('pink-bg'));  //true false
-
-    const button = document.querySelector('button');
-    const p = document.querySelector('p');
-
-    button.addEventListener('click', () => {
-        // console.log(p.classList.contains('pink-bg'));  // false
-        // if (p.classList.contains('pink-bg') === false) {
-        //     p.classList.add('pink-bg');
-        // } else {
-        //     p.classList.remove('pink-bg');
-        // }
-        p.classList.toggle('pink-bg');
-    });
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
