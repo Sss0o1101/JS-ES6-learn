@@ -52,31 +52,3 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-/*  .querySelectorAll() ------------------------------------------------------------------------------------------*/
-    //querySelectorAllは配列である。
-
-    const button = document.querySelector('button');
-
-    button.addEventListener('click', () => {
-        // document.querySelectorAll('li')[0].textContent = 'Changed!'
-        document.querySelectorAll('li').forEach( (li) => {
-            li.textContent = 'Changed!'
-        });
-    });
-
-/*  querySelectorAll() (2) ------------------------------------------------------------------------------------------*/
-
-    const button = document.querySelector('button');
-
-    button.addEventListener('click', () => {
-        document.querySelector('#second').textContent = 'Changed!!!!!'
-        // document.querySelectorAll('li')[1].textContent = 'Changed!!!!!'
-        document.querySelectorAll('.target').forEach( (li) => {
-            li.textContent = 'Changed!!!'
-        });
-    });
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
