@@ -11,3 +11,5 @@
 //then: 成功時の処理
 //catch: 失敗時の処理
 //finally: 成功失敗に関わらず最後に実行される処理
+
+//await async
