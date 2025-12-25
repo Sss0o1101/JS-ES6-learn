@@ -1,13 +1,13 @@
 //組み込みオブジェクト
 
-Math.random();
-Math.floor();
-Math.ceil();
-Math.round();
-Math.abs();
-Math.max();
-Math.min();
-Math.pow();
-Math.sqrt();
-Math.log();
-Math.exp();
+Math.random();  //ランダム
+Math.floor();  //切り捨て
+Math.ceil();  //切り上げ
+Math.round();  //四捨五入
+Math.abs();  //絶対値
+Math.max();  //最大値
+Math.min();  //最小値
+Math.pow();  //累乗
+Math.sqrt();  //平方根
+Math.log();  //対数
+Math.exp();  //指数
