@@ -33,3 +33,4 @@ DOMException.prototype.toExponential();  //エラーを指数形式で返す
 DOMException.prototype.toFixed();  //エラーを固定小数点形式で返す
 DOMException.prototype.toPrecision();  //エラーを精度形式で返す
 DOMException.prototype.toLocaleString();  //エラーをロケールに合わせて表示
+DOMException.prototype.toLocaleDateString();  //エラーをロケールに合わせて日付のみ表示
