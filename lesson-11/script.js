@@ -11,3 +11,5 @@ Math.pow();  //累乗
 Math.sqrt();  //平方根
 Math.log();  //対数
 Math.exp();  //指数
+
+Date.now();  //現在の日時
