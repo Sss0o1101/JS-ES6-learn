@@ -26,3 +26,4 @@ DOMException.prototype.message;  //エラーのメッセージ
 DOMException.prototype.stack;  //エラーのスタックトレース
 DOMException.prototype.constructor;  //エラーのコンストラクタ
 DOMException.prototype.prototype;  //エラーのプロトタイプ
+DOMException.prototype.toJSON();  //エラーをJSON形式で返す
