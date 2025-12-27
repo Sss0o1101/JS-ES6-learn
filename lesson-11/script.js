@@ -13,3 +13,4 @@ Math.log();  //対数
 Math.exp();  //指数
 
 Date.now();  //現在の日時
+Date.parse();  //日時をミリ秒で返す
