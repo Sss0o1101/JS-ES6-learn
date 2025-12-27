@@ -17,3 +17,4 @@ Date.parse();  //日時をミリ秒で返す
 Date.UTC();  //UTCの日時
 
 Date.prototype.toLocaleString();  //日時をロケールに合わせて表示
+Date.prototype.toLocaleDateString();  //日時をロケールに合わせて日付のみ表示
