@@ -18,3 +18,4 @@ Date.UTC();  //UTCの日時
 
 Date.prototype.toLocaleString();  //日時をロケールに合わせて表示
 Date.prototype.toLocaleDateString();  //日時をロケールに合わせて日付のみ表示
+Date.prototype.toLocaleTimeString();  //日時をロケールに合わせて時間のみ表示
