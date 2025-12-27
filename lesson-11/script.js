@@ -25,3 +25,4 @@ DOMException.prototype.name;  //エラーの名前
 DOMException.prototype.message;  //エラーのメッセージ
 DOMException.prototype.stack;  //エラーのスタックトレース
 DOMException.prototype.constructor;  //エラーのコンストラクタ
+DOMException.prototype.prototype;  //エラーのプロトタイプ
