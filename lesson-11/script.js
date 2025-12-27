@@ -24,3 +24,4 @@ DOMException.prototype.toString();  //エラーの内容を文字列で返す
 DOMException.prototype.name;  //エラーの名前
 DOMException.prototype.message;  //エラーのメッセージ
 DOMException.prototype.stack;  //エラーのスタックトレース
+DOMException.prototype.constructor;  //エラーのコンストラクタ
