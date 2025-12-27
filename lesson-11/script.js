@@ -22,3 +22,4 @@ Date.prototype.toLocaleTimeString();  //日時をロケールに合わせて時�
 Date.prototype.toISOString();  //ISO 8601形式の日時
 DOMException.prototype.toString();  //エラーの内容を文字列で返す
 DOMException.prototype.name;  //エラーの名前
+DOMException.prototype.message;  //エラーのメッセージ
