@@ -29,3 +29,4 @@ DOMException.prototype.prototype;  //エラーのプロトタイプ
 DOMException.prototype.toJSON();  //エラーをJSON形式で返す
 DOMException.prototype.toSource();  //エラーをソースコード形式で返す
 DOMException.prototype.toString();  //エラーの内容を文字列で返す
+DOMException.prototype.toExponential();  //エラーを指数形式で返す
