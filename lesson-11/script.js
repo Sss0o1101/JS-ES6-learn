@@ -36,3 +36,4 @@ DOMException.prototype.toLocaleString();  //エラーをロケールに合わせ
 DOMException.prototype.toLocaleDateString();  //エラーをロケールに合わせて日付のみ表示
 DOMException.prototype.toLocaleTimeString();  //エラーをロケールに合わせて時間のみ表示
 DOMException.prototype.toISOString();  //エラーをISO 8601形式で返す
+DOMException.prototype.toUTCString();  //エラーをUTC形式で返す
