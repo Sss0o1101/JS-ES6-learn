@@ -40,3 +40,4 @@ DOMException.prototype.toUTCString();  //エラーをUTC形式で返す
 
 
 Document.prototype.createElement();  //要素を作成
+Document.prototype.createTextNode();  //テキストノードを作成
