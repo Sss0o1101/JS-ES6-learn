@@ -38,3 +38,4 @@ DOMException.prototype.toLocaleTimeString();  //エラーをロケールに合�
 DOMException.prototype.toISOString();  //エラーをISO 8601形式で返す
 DOMException.prototype.toUTCString();  //エラーをUTC形式で返す
 DOMException.prototype.toJSON();  //エラーをJSON形式で返す
+DOMException.prototype.toSource();  //エラーをソースコード形式で返す
