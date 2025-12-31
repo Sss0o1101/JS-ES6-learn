@@ -44,3 +44,7 @@ Document.prototype.createTextNode();  //テキストノードを作成
 Document.prototype.createComment();  //コメントノードを作成
 Document.prototype.createDocumentFragment();  //ドキュメントフラグメントを作成
 Document.prototype.createAttribute();  //属性を作成
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Math.PI;  //円周率
