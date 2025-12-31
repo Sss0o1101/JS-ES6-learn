@@ -43,3 +43,4 @@ Document.prototype.createElement();  //要素を作成
 Document.prototype.createTextNode();  //テキストノードを作成
 Document.prototype.createComment();  //コメントノードを作成
 Document.prototype.createDocumentFragment();  //ドキュメントフラグメントを作成
+Document.prototype.createAttribute();  //属性を作成
