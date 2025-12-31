@@ -53,7 +53,6 @@ Math.LN2;  //2の自然対数
 Math.LN10;  //10の自然対数
 Math.LOG2E;  //2の底のeの対数
 Math.LOG10E;  //10の底のeの対数
-Math.SQRT2;  //2の平方根
 Math.SQRT1_2;  //1/2の平方根
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -65,3 +64,4 @@ Date.prototype.toLocaleString();  //日時をロケールに合わせて表示
 Date.prototype.toLocaleDateString();  //日時をロケールに合わせて日付のみ表示
 Date.prototype.toLocaleTimeString();  //日時をロケールに合わせて時間のみ表示
 Date.prototype.toISOString();  //ISO 8601形式の日時
+Date.prototype.toUTCString();  //UTC形式の日時
