@@ -50,3 +50,4 @@ Document.prototype.createAttribute();  //属性を作成
 Math.PI;  //円周率
 Math.E;  //自然対数の底
 Math.LN2;  //2の自然対数
+Math.LN10;  //10の自然対数
