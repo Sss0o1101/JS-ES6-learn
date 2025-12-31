@@ -67,3 +67,4 @@ Date.prototype.toISOString();  //ISO 8601形式の日時
 Date.prototype.toUTCString();  //UTC形式の日時
 Date.prototype.toJSON();  //日時をJSON形式で返す
 Date.prototype.toSource();  //日時をソースコード形式で返す
+Date.prototype.toString();  //日時を文字列で返す
