@@ -69,3 +69,4 @@ Date.prototype.toJSON();  //日時をJSON形式で返す
 Date.prototype.toSource();  //日時をソースコード形式で返す
 Date.prototype.toString();  //日時を文字列で返す
 Date.prototype.toExponential();  //日時を指数形式で返す
+Date.prototype.toFixed();  //日時を固定小数点形式で返す
