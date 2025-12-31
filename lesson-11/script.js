@@ -65,3 +65,4 @@ Date.prototype.toLocaleDateString();  //日時をロケールに合わせて日�
 Date.prototype.toLocaleTimeString();  //日時をロケールに合わせて時間のみ表示
 Date.prototype.toISOString();  //ISO 8601形式の日時
 Date.prototype.toUTCString();  //UTC形式の日時
+Date.prototype.toJSON();  //日時をJSON形式で返す
