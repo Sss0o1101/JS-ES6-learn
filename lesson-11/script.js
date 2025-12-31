@@ -61,3 +61,4 @@ Math.SQRT1_2;  //1/2の平方根
 Date.now();  //現在の日時
 Date.parse();  //日時をミリ秒で返す
 Date.UTC();  //UTCの日時
+Date.prototype.toLocaleString();  //日時をロケールに合わせて表示
