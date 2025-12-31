@@ -53,3 +53,4 @@ Math.LN2;  //2の自然対数
 Math.LN10;  //10の自然対数
 Math.LOG2E;  //2の底のeの対数
 Math.LOG10E;  //10の底のeの対数
+Math.SQRT2;  //2の平方根
