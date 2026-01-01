@@ -74,3 +74,7 @@ Date.prototype.toPrecision();  //日時を精度形式で返す
 Date.prototype.toLocaleString();  //日時をロケールに合わせて表示
 Date.prototype.toLocaleDateString();  //日時をロケールに合わせて日付のみ表示
 Date.prototype.toLocaleTimeString();  //日時をロケールに合わせて時間のみ表示
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Element.prototype.appendChild();  //要素を追加
