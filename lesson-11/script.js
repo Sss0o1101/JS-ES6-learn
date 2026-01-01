@@ -80,3 +80,4 @@ Date.prototype.toLocaleTimeString();  //日時をロケールに合わせて時�
 Element.prototype.appendChild();  //要素を追加
 Element.prototype.insertBefore();  //要素を挿入
 Element.prototype.replaceChild();  //要素を置換
+Element.prototype.cloneNode();  //要素を複製
