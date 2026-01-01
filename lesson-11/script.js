@@ -81,3 +81,4 @@ Element.prototype.appendChild();  //要素を追加
 Element.prototype.insertBefore();  //要素を挿入
 Element.prototype.replaceChild();  //要素を置換
 Element.prototype.cloneNode();  //要素を複製
+Element.prototype.getAttribute();  //要素の属性を取得
