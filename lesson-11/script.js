@@ -87,3 +87,7 @@ Element.prototype.removeAttribute();  //要素の属性を削除
 Element.prototype.hasAttribute();  //要素の属性が存在するかどうかを判定
 Element.prototype.getAttributeNode();  //要素の属性を取得
 Element.prototype.setAttributeNode();  //要素の属性を設定
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+querySelector();  //要素を取得
