@@ -83,3 +83,4 @@ Element.prototype.replaceChild();  //要素を置換
 Element.prototype.cloneNode();  //要素を複製
 Element.prototype.getAttribute();  //要素の属性を取得
 Element.prototype.setAttribute();  //要素の属性を設定
+Element.prototype.removeAttribute();  //要素の属性を削除
