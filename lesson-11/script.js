@@ -92,13 +92,10 @@ Element.prototype.setAttributeNode();  //要素の属性を設定
 
 querySelector();  //要素を取得
 querySelectorAll();  //要素の全てを取得
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
-
-EventTarget.prototype.addEventListener();  //イベントを追加
 EventTarget.prototype.removeEventListener();  //イベントを削除
 EventTarget.prototype.dispatchEvent();  //イベントを発火
 EventTarget.prototype.onerror();  //エラーを捕捉
 EventTarget.prototype.onmessage();  //メッセージを捕捉
 EventTarget.prototype.onmessageerror();  //メッセージエラーを捕捉
 EventTarget.prototype.onreadystatechange();  //読み込み状態が変化したときに発火
+E
