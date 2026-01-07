@@ -98,3 +98,4 @@ querySelectorAll();  //要素の全てを取得
 EventTarget.prototype.addEventListener();  //イベントを追加
 EventTarget.prototype.removeEventListener();  //イベントを削除
 EventTarget.prototype.dispatchEvent();  //イベントを発火
+EventTarget.prototype.onerror();  //エラーを捕捉
