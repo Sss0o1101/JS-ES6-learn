@@ -101,7 +101,7 @@ EventTarget.prototype.onreadystatechange();  //読み込み状態が変化した
 EventTarget.prototype.onabort();  //中断されたときに発火
 EventTarget.prototype.oncanplay();  //再生可能になったときに発火
 EventTarget.prototype.oncanplaythrough();  //再生可能になったときに発火
-// EventTarget.prototype.onchange();  //変更されたときに発火
+EventTarget.prototype.onchange();  //変更されたときに発火
 // EventTarget.prototype.oncontextmenu();  //コンテキストメニューが表示されたときに発火
 // EventTarget.prototype.oncopy();  //コピーされたときに発火
 // EventTarget.prototype.oncut();  //切り取られたときに発火
