@@ -99,3 +99,4 @@ EventTarget.prototype.addEventListener();  //イベントを追加
 EventTarget.prototype.removeEventListener();  //イベントを削除
 EventTarget.prototype.dispatchEvent();  //イベントを発火
 EventTarget.prototype.onerror();  //エラーを捕捉
+EventTarget.prototype.onmessage();  //メッセージを捕捉
