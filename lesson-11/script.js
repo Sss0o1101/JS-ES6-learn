@@ -92,3 +92,7 @@ Element.prototype.setAttributeNode();  //要素の属性を設定
 
 querySelector();  //要素を取得
 querySelectorAll();  //要素の全てを取得
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+EventTarget.prototype.addEventListener();  //イベントを追加
