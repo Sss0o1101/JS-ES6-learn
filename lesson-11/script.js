@@ -108,3 +108,13 @@ EventTarget.prototype.oncut();  //切り取られたときに発火
 EventTarget.prototype.onpaste();  //貼り付けられたときに発火
 EventTarget.prototype.oninput();  //入力されたときに発火
 EventTarget.prototype.oninvalid();  //無効なときに発火
+EventTarget.prototype.onreset();  //リセットされたときに発火
+// EventTarget.prototype.onsubmit();  //送信されたときに発火
+// EventTarget.prototype.onfocus();  //フォーカスされたときに発火
+// EventTarget.prototype.onblur();  //フォーカスが外れたときに発火
+// EventTarget.prototype.onfocusin();  //フォーカスが外れたときに発火
+// EventTarget.prototype.onfocusout();  //フォーカスが外れたときに発火
+// EventTarget.prototype.onscroll();  //スクロールされたときに発火
+// EventTarget.prototype.onresize();  //リサイズされたときに発火
+// EventTarget.prototype.onscrollend();  //スクロールが終了したときに発火
+// EventTarget.prototype.onscrollstart();  //スクロールが開始したときに発火
