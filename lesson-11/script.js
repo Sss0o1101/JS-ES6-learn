@@ -104,7 +104,7 @@ EventTarget.prototype.oncanplaythrough();  //再生可能になったときに�
 EventTarget.prototype.onchange();  //変更されたときに発火
 EventTarget.prototype.oncontextmenu();  //コンテキストメニューが表示されたときに発火
 EventTarget.prototype.oncopy();  //コピーされたときに発火
-// EventTarget.prototype.oncut();  //切り取られたときに発火
+EventTarget.prototype.oncut();  //切り取られたときに発火
 // EventTarget.prototype.onpaste();  //貼り付けられたときに発火
 // EventTarget.prototype.oninput();  //入力されたときに発火
 // EventTarget.prototype.oninvalid();  //無効なときに発火
