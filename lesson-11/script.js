@@ -117,4 +117,4 @@ EventTarget.prototype.onfocusout();  //フォーカスが外れたときに発�
 EventTarget.prototype.onscroll();  //スクロールされたときに発火
 EventTarget.prototype.onresize();  //リサイズされたときに発火
 EventTarget.prototype.onscrollend();  //スクロールが終了したときに発火
-// EventTarget.prototype.onscrollstart();  //スクロールが開始したときに発火
+EventTarget.prototype.onscrollstart();  //スクロールが開始したときに発火
