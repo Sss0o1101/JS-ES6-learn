@@ -120,5 +120,5 @@ EventTarget.prototype.onscrollend();  //スクロールが終了したときに�
 EventTarget.prototype.onscrollstart();  //スクロールが開始したときに発火
 EventTarget.prototype.onselect();  //選択されたときに発火
 EventTarget.prototype.onselectstart();  //選択が開始されたときに発火
-// EventTarget.prototype.onselectend();  //選択が終了したときに発火
+EventTarget.prototype.onselectend();  //選択が終了したときに発火
 // EventTarget.prototype.onselectstart();  //選択が開始されたときに発火
