@@ -149,9 +149,10 @@ document.body.addEventListener('mousedown', () => {
     alert('mousedown');
 });
 
-// document.body.addEventListener('mouseenter', () => {
-//     alert('mouseenter');
-// });
+document.body.addEventListener('mouseenter', () => {
+    alert('mouseenter');
+});
+
 // document.body.addEventListener('mouseleave', () => {
 //     alert('mouseleave');
 // });
