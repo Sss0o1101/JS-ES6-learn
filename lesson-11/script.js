@@ -141,9 +141,10 @@ document.body.addEventListener('mousemove', () => {
     alert('mousemove');
 });
 
-// document.body.addEventListener('mouseup', () => {
-//     alert('mouseup');
-// });
+document.body.addEventListener('mouseup', () => {
+    alert('mouseup');
+});
+
 // document.body.addEventListener('mousedown', () => {
 //     alert('mousedown');
 // });
