@@ -122,3 +122,43 @@ EventTarget.prototype.onselect();  //選択されたときに発火
 EventTarget.prototype.onselectstart();  //選択が開始されたときに発火
 EventTarget.prototype.onselectend();  //選択が終了したときに発火
 EventTarget.prototype.onselectstart();  //選択が開始されたときに発火
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+document.body.addEventListener('click', () => {
+    alert('click');
+});
+
+// document.body.addEventListener('mouseover', () => {
+//     alert('mouseover');
+// });
+// document.body.addEventListener('mouseout', () => {
+//     alert('mouseout');
+// });
+// document.body.addEventListener('mousemove', () => {
+//     alert('mousemove');
+// });
+// document.body.addEventListener('mouseup', () => {
+//     alert('mouseup');
+// });
+// document.body.addEventListener('mousedown', () => {
+//     alert('mousedown');
+// });
+// document.body.addEventListener('mouseenter', () => {
+//     alert('mouseenter');
+// });
+// document.body.addEventListener('mouseleave', () => {
+//     alert('mouseleave');
+// });
+// document.body.addEventListener('mouseenter', () => {
+//     alert('mouseenter');
+// });
+// document.body.addEventListener('mouseleave', () => {
+//     alert('mouseleave');
+// });
+// document.body.addEventListener('mouseenter', () => {
+//     alert('mouseenter');
+// });
+// document.body.addEventListener('mouseleave', () => {
+//     alert('mouseleave');
+// });
