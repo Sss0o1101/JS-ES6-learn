@@ -129,9 +129,10 @@ document.body.addEventListener('click', () => {
     alert('click');
 });
 
-// document.body.addEventListener('mouseover', () => {
-//     alert('mouseover');
-// });
+document.body.addEventListener('mouseover', () => {
+    alert('mouseover');
+});
+
 // document.body.addEventListener('mouseout', () => {
 //     alert('mouseout');
 // });
