@@ -191,9 +191,9 @@ window.addEventListener('message', () => {
     alert('message');
 });
 
-// window.addEventListener('messageerror', () => {
-//     alert('messageerror');
-// });
+window.addEventListener('messageerror', () => {
+    alert('messageerror');
+});
 
 // window.addEventListener('popstate', () => {
 //     alert('popstate');
