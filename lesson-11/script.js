@@ -175,9 +175,9 @@ window.addEventListener('load', () => {
     alert('load');
 });
 
-// window.addEventListener('unload', () => {
-//     alert('unload');
-// });
+window.addEventListener('unload', () => {
+    alert('unload');
+});
 
 // window.addEventListener('beforeunload', () => {
 //     alert('beforeunload');
