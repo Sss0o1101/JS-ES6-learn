@@ -199,9 +199,9 @@ window.addEventListener('popstate', () => {
     alert('popstate');
 });
 
-// window.addEventListener('hashchange', () => {
-//     alert('hashchange');
-// });
+window.addEventListener('hashchange', () => {
+    alert('hashchange');
+});
 
 // window.addEventListener('storage', () => {
 //     alert('storage');
