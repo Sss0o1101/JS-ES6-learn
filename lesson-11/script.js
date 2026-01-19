@@ -207,9 +207,9 @@ window.addEventListener('storage', () => {
     alert('storage');
 });
 
-// window.addEventListener('storage', () => {
-//     alert('storage');
-// });
+window.addEventListener('storage', () => {
+    alert('storage');
+});
 
 // window.addEventListener('storage', () => {
 //     alert('storage');
