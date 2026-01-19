@@ -183,9 +183,9 @@ window.addEventListener('beforeunload', () => {
     alert('beforeunload');
 });
 
-// window.addEventListener('error', () => {
-//     alert('error');
-// });
+window.addEventListener('error', () => {
+    alert('error');
+});
 
 // window.addEventListener('message', () => {
 //     alert('message');
