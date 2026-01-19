@@ -187,9 +187,9 @@ window.addEventListener('error', () => {
     alert('error');
 });
 
-// window.addEventListener('message', () => {
-//     alert('message');
-// });
+window.addEventListener('message', () => {
+    alert('message');
+});
 
 // window.addEventListener('messageerror', () => {
 //     alert('messageerror');
