@@ -168,3 +168,49 @@ document.body.addEventListener('mouseenter', () => {
 document.body.addEventListener('mouseleave', () => {
     alert('mouseleave');
 });
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+window.addEventListener('load', () => {
+    alert('load');
+});
+
+// window.addEventListener('unload', () => {
+//     alert('unload');
+// });
+
+// window.addEventListener('beforeunload', () => {
+//     alert('beforeunload');
+// });
+
+// window.addEventListener('error', () => {
+//     alert('error');
+// });
+
+// window.addEventListener('message', () => {
+//     alert('message');
+// });
+
+// window.addEventListener('messageerror', () => {
+//     alert('messageerror');
+// });
+
+// window.addEventListener('popstate', () => {
+//     alert('popstate');
+// });
+
+// window.addEventListener('hashchange', () => {
+//     alert('hashchange');
+// });
+
+// window.addEventListener('storage', () => {
+//     alert('storage');
+// });
+
+// window.addEventListener('storage', () => {
+//     alert('storage');
+// });
+
+// window.addEventListener('storage', () => {
+//     alert('storage');
+// });
