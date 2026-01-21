@@ -220,7 +220,7 @@ window.addEventListener('storage', () => {
 join('')
 split('')
 push('')
-// unshift('')
+unshift('')
 // splice('')
 // slice('')
 // concat('')
