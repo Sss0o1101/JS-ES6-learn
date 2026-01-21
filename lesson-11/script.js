@@ -217,6 +217,22 @@ window.addEventListener('storage', () => {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
-join
 join('')
 split('')
+push('')
+// unshift('')
+// splice('')
+// slice('')
+// concat('')
+// forEach('')
+// map('')
+// filter('')
+// pop()
+// shift()
+// unshift()
+// splice()
+// slice()
+// concat()
+// forEach()
+// map()
+// filter()
