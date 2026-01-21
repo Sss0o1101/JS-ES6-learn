@@ -219,5 +219,4 @@ window.addEventListener('storage', () => {
 
 join
 join('')
-join('')
-
+split('')
