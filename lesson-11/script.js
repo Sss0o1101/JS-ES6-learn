@@ -255,3 +255,15 @@ array.filter((item) => {
 array.reduce((acc, item) => {
     return acc + item;
 }, 0);
+
+array.find((item) => {
+    return item > 3;
+});
+
+// array.findIndex((item) => {
+//     return item > 3;
+// });
+
+// array.includes((item) => {
+//     return item > 3;
+// });
