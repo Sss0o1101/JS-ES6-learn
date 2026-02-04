@@ -244,6 +244,6 @@ array.forEach((item) => {
     console.log(item);
 });
 
-// array.map((item) => {
-//     return item * 2;
-// });
+array.map((item) => {
+    return item * 2;
+});
