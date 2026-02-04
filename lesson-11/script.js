@@ -264,6 +264,6 @@ array.findIndex((item) => {
     return item > 3;
 });
 
-// array.includes((item) => {
-//     return item > 3;
-// });
+array.includes((item) => {
+    return item > 3;
+});
