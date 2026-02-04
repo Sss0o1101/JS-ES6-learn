@@ -251,3 +251,7 @@ array.map((item) => {
 array.filter((item) => {
     return item > 3;
 });
+
+array.reduce((acc, item) => {
+    return acc + item;
+}, 0);
