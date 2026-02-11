@@ -56,3 +56,7 @@ const time14 = setTimeout(() => {
 const time15 = setTimeout(() => {
   console.log('Hello');
 }, 1000);
+
+
+//clearInterval();
+clearInterval(time10);
