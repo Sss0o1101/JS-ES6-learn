@@ -26,5 +26,5 @@ console.log(time7.getTime());
 const time8 = new Date('2026-02-08T10:00:00+09:00');
 console.log(time8.getTime());
 
-// const time9 = new Date('2026-02-08T10:00:00+09:00');
-// console.log(time9.getTime());
+const time9 = new Date('2026-02-08T10:00:00+09:00');
+console.log(time9.getTime());
