@@ -35,9 +35,9 @@ const time10 = setInterval(() => {
   console.log('Hello');
 }, 1000);
 
-// const time11 = setInterval(() => {
-//   console.log('Hello');
-// }, 1000);
+const time11 = setInterval(() => {
+  console.log('Hello');
+}, 1000);
 
 // const time12 = setInterval(() => {
 //   console.log('Hello');
