@@ -61,3 +61,4 @@ const time15 = setTimeout(() => {
 //clearInterval();
 clearInterval(time10);
 clearInterval(time11);
+clearInterval(time12);
