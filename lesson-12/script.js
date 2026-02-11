@@ -67,3 +67,4 @@ clearInterval(time12);
 //clearTimeout();
 clearTimeout(time13);
 clearTimeout(time14);
+clearTimeout(time15);
