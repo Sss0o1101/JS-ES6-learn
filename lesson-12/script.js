@@ -42,3 +42,17 @@ const time11 = setInterval(() => {
 const time12 = setInterval(() => {
   console.log('Hello');
 }, 1000);
+
+
+//setTimeout()
+const time13 = setTimeout(() => {
+  console.log('Hello');
+}, 1000);
+
+// const time14 = setTimeout(() => {
+//   console.log('Hello');
+// }, 1000);
+
+// const time15 = setTimeout(() => {
+//   console.log('Hello');
+// }, 1000);
