@@ -53,6 +53,6 @@ const time14 = setTimeout(() => {
   console.log('Hello');
 }, 1000);
 
-// const time15 = setTimeout(() => {
-//   console.log('Hello');
-// }, 1000);
+const time15 = setTimeout(() => {
+  console.log('Hello');
+}, 1000);
