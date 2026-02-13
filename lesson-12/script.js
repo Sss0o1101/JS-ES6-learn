@@ -117,3 +117,14 @@ const n12 = Math.floor(prompt('Number?'));
 console.log(n12 + 5);
 
 //Math.round()
+
+const n13 = Math.round(prompt('Number?'));
+console.log(n13 + 5);
+
+// const n14 = Math.round(prompt('Number?'));
+// console.log(n14 + 5);
+
+// const n15 = Math.round(prompt('Number?'));
+// console.log(n15 + 5);
+
+//Math.abs()
