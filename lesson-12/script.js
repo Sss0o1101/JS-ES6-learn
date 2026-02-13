@@ -93,3 +93,16 @@ console.log(n5 + 5);
 
 const n6 = parseInt(prompt('Number?'));
 console.log(n6 + 5);
+
+//Math.ceil()
+
+const n7 = Math.ceil(prompt('Number?'));
+console.log(n7 + 5);
+
+// const n8 = Math.ceil(prompt('Number?'));
+// console.log(n8 + 5);
+
+// const n9 = Math.ceil(prompt('Number?'));
+// console.log(n9 + 5);
+
+//Math.floor()
