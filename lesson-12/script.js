@@ -121,8 +121,8 @@ console.log(n12 + 5);
 const n13 = Math.round(prompt('Number?'));
 console.log(n13 + 5);
 
-// const n14 = Math.round(prompt('Number?'));
-// console.log(n14 + 5);
+const n14 = Math.round(prompt('Number?'));
+console.log(n14 + 5);
 
 // const n15 = Math.round(prompt('Number?'));
 // console.log(n15 + 5);
