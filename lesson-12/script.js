@@ -91,5 +91,5 @@ console.log(n4 + 5);
 const n5 = parseInt(prompt('Number?'));
 console.log(n5 + 5);
 
-// const n6 = parseInt(prompt('Number?'));
-// console.log(n6 + 5);
+const n6 = parseInt(prompt('Number?'));
+console.log(n6 + 5);
