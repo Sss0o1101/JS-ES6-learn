@@ -132,8 +132,8 @@ console.log(n15 + 5);
 const n16 = Math.abs(prompt('Number?'));
 console.log(n16 + 5);
 
-// const n17 = Math.abs(prompt('Number?'));
-// console.log(n17 + 5);
+const n17 = Math.abs(prompt('Number?'));
+console.log(n17 + 5);
 
 // const n18 = Math.abs(prompt('Number?'));
 // console.log(n18 + 5);
