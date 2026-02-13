@@ -110,8 +110,8 @@ console.log(n9 + 5);
 const n10 = Math.floor(prompt('Number?'));
 console.log(n10 + 5);
 
-// const n11 = Math.floor(prompt('Number?'));
-// console.log(n11 + 5);
+const n11 = Math.floor(prompt('Number?'));
+console.log(n11 + 5);
 
 // const n12 = Math.floor(prompt('Number?'));
 // console.log(n12 + 5);
