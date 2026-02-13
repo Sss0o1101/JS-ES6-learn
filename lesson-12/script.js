@@ -68,3 +68,17 @@ clearInterval(time12);
 clearTimeout(time13);
 clearTimeout(time14);
 clearTimeout(time15);
+
+
+
+//数値 -----------------------------------------
+//Number()
+
+const n = Number(prompt('Number?'));
+console.log(n + 5);
+
+// const n2 = Number(prompt('Number?'));
+// console.log(n2 + 5);
+
+// const n3 = Number(prompt('Number?'));
+// console.log(n3 + 5);
