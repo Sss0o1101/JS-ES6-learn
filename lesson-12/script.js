@@ -168,5 +168,5 @@ console.log(n25 + 5);
 const n26 = Math.random();
 console.log(n26 + 5);
 
-// const n27 = Math.random();
-// console.log(n27 + 5);
+const n27 = Math.random();
+console.log(n27 + 5);
