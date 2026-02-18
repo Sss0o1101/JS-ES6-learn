@@ -139,3 +139,6 @@ const n18 = Math.abs(prompt('Number?'));
 console.log(n18 + 5);
 
 //Math.max()
+
+const n19 = Math.max(prompt('Number?'));
+console.log(n19 + 5);
