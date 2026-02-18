@@ -148,3 +148,14 @@ console.log(n20 + 5);
 
 const n21 = Math.max(prompt('Number?'));
 console.log(n21 + 5);
+
+//Math.min()
+
+const n22 = Math.min(prompt('Number?'));
+console.log(n22 + 5);
+
+// const n23 = Math.min(prompt('Number?'));
+// console.log(n23 + 5);
+
+// const n24 = Math.min(prompt('Number?'));
+// console.log(n24 + 5);
