@@ -157,5 +157,5 @@ console.log(n22 + 5);
 const n23 = Math.min(prompt('Number?'));
 console.log(n23 + 5);
 
-// const n24 = Math.min(prompt('Number?'));
-// console.log(n24 + 5);
+const n24 = Math.min(prompt('Number?'));
+console.log(n24 + 5);
