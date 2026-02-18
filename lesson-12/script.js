@@ -159,3 +159,14 @@ console.log(n23 + 5);
 
 const n24 = Math.min(prompt('Number?'));
 console.log(n24 + 5);
+
+//Math.random()
+
+const n25 = Math.random();
+console.log(n25 + 5);
+
+const n26 = Math.random();
+console.log(n26 + 5);
+
+// const n27 = Math.random();
+// console.log(n27 + 5);
