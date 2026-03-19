@@ -203,3 +203,14 @@ console.log(n35 + 5);
 
 const n36 = Math.cbrt(prompt('Number?'));
 console.log(n36 + 5);
+
+
+//Math.log()
+const n37 = Math.log(prompt('Number?'));
+console.log(n37 + 5);
+
+const n38 = Math.log(prompt('Number?'));
+console.log(n38 + 5);
+
+const n39 = Math.log(prompt('Number?'));
+console.log(n39 + 5);
