@@ -192,3 +192,14 @@ console.log(n32 + 5);
 
 const n33 = Math.sqrt(prompt('Number?'));
 console.log(n33 + 5);
+
+
+//Math.cbrt()
+const n34 = Math.cbrt(prompt('Number?'));
+console.log(n34 + 5);
+
+const n35 = Math.cbrt(prompt('Number?'));
+console.log(n35 + 5);
+
+const n36 = Math.cbrt(prompt('Number?'));
+console.log(n36 + 5);
