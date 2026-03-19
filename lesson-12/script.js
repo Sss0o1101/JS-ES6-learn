@@ -170,3 +170,14 @@ console.log(n26 + 5);
 
 const n27 = Math.random();
 console.log(n27 + 5);
+
+
+//Math.pow()
+const n28 = Math.pow(prompt('Number?'), 2);
+console.log(n28 + 5);
+
+const n29 = Math.pow(prompt('Number?'), 2);
+console.log(n29 + 5);
+
+const n30 = Math.pow(prompt('Number?'), 2);
+console.log(n30 + 5);
