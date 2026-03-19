@@ -214,3 +214,14 @@ console.log(n38 + 5);
 
 const n39 = Math.log(prompt('Number?'));
 console.log(n39 + 5);
+
+
+//Math.log10()
+const n40 = Math.log10(prompt('Number?'));
+console.log(n40 + 5);
+
+const n41 = Math.log10(prompt('Number?'));
+console.log(n41 + 5);
+
+const n42 = Math.log10(prompt('Number?'));
+console.log(n42 + 5);
