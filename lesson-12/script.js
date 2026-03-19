@@ -181,3 +181,14 @@ console.log(n29 + 5);
 
 const n30 = Math.pow(prompt('Number?'), 2);
 console.log(n30 + 5);
+
+
+//Math.sqrt()
+const n31 = Math.sqrt(prompt('Number?'));
+console.log(n31 + 5);
+
+const n32 = Math.sqrt(prompt('Number?'));
+console.log(n32 + 5);
+
+const n33 = Math.sqrt(prompt('Number?'));
+console.log(n33 + 5);
