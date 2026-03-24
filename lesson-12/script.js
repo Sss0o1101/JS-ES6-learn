@@ -281,4 +281,15 @@ console.log(n56 + 5);
 const n57 = Math.asin(prompt('Number?'));
 console.log(n57 + 5);
 
+
 //Math.acos()
+const n58 = Math.acos(prompt('Number?'));
+console.log(n58 + 5);
+
+const n59 = Math.acos(prompt('Number?'));
+console.log(n59 + 5);
+
+const n60 = Math.acos(prompt('Number?'));
+console.log(n60 + 5);
+
+//Math.atan()
