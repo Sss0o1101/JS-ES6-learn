@@ -301,3 +301,14 @@ console.log(n62 + 5);
 
 const n63 = Math.atan(prompt('Number?'));
 console.log(n63 + 5);
+
+
+//Math.atan2()
+const n64 = Math.atan2(prompt('Number?'));
+console.log(n64 + 5);
+
+const n65 = Math.atan2(prompt('Number?'));
+console.log(n65 + 5);
+
+const n66 = Math.atan2(prompt('Number?'));
+console.log(n66 + 5);
