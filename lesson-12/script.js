@@ -293,3 +293,11 @@ const n60 = Math.acos(prompt('Number?'));
 console.log(n60 + 5);
 
 //Math.atan()
+const n61 = Math.atan(prompt('Number?'));
+console.log(n61 + 5);
+
+const n62 = Math.atan(prompt('Number?'));
+console.log(n62 + 5);
+
+const n63 = Math.atan(prompt('Number?'));
+console.log(n63 + 5);
