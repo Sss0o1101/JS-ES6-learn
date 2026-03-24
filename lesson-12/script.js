@@ -247,3 +247,14 @@ console.log(n47 + 5);
 
 const n48 = Math.sin(prompt('Number?'));
 console.log(n48 + 5);
+
+
+//Math.cos()
+const n49 = Math.cos(prompt('Number?'));
+console.log(n49 + 5);
+
+const n50 = Math.cos(prompt('Number?'));
+console.log(n50 + 5);
+
+const n51 = Math.cos(prompt('Number?'));
+console.log(n51 + 5);
