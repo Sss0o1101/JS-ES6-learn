@@ -236,3 +236,14 @@ console.log(n44 + 5);
 
 const n45 = Math.log2(prompt('Number?'));
 console.log(n45 + 5);
+
+
+//Math.sin()
+const n46 = Math.sin(prompt('Number?'));
+console.log(n46 + 5);
+
+const n47 = Math.sin(prompt('Number?'));
+console.log(n47 + 5);
+
+const n48 = Math.sin(prompt('Number?'));
+console.log(n48 + 5);
