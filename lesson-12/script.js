@@ -269,3 +269,16 @@ console.log(n53 + 5);
 
 const n54 = Math.tan(prompt('Number?'));
 console.log(n54 + 5);
+
+
+//Math.asin()
+const n55 = Math.asin(prompt('Number?'));
+console.log(n55 + 5);
+
+const n56 = Math.asin(prompt('Number?'));
+console.log(n56 + 5);
+
+const n57 = Math.asin(prompt('Number?'));
+console.log(n57 + 5);
+
+//Math.acos()
