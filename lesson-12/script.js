@@ -258,3 +258,14 @@ console.log(n50 + 5);
 
 const n51 = Math.cos(prompt('Number?'));
 console.log(n51 + 5);
+
+
+//Math.tan()
+const n52 = Math.tan(prompt('Number?'));
+console.log(n52 + 5);
+
+const n53 = Math.tan(prompt('Number?'));
+console.log(n53 + 5);
+
+const n54 = Math.tan(prompt('Number?'));
+console.log(n54 + 5);
