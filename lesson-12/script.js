@@ -335,3 +335,14 @@ console.log(n71 + 5);
 const n72 = Math.asinh(prompt('Number?'));
 console.log(n72 + 5);
 
+
+//Math.acosh()
+const n73 = Math.acosh(prompt('Number?'));
+console.log(n73 + 5);
+
+const n74 = Math.acosh(prompt('Number?'));
+console.log(n74 + 5);
+
+const n75 = Math.acosh(prompt('Number?'));
+console.log(n75 + 5);
+
