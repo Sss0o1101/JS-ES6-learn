@@ -356,3 +356,16 @@ console.log(n77 + 5);
 
 const n78 = Math.atanh(prompt('Number?'));
 console.log(n78 + 5);
+
+
+//Math.sinh()
+const n79 = Math.sinh(prompt('Number?'));
+console.log(n79 + 5);
+
+const n80 = Math.sinh(prompt('Number?'));
+console.log(n80 + 5);
+
+const n81 = Math.sinh(prompt('Number?'));
+console.log(n81 + 5);
+
+//Math.cosh()
