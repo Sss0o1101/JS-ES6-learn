@@ -323,3 +323,15 @@ console.log(n68 + 5);
 
 const n69 = Math.hypot(prompt('Number?'));
 console.log(n69 + 5);
+
+
+//Math.asinh()
+const n70 = Math.asinh(prompt('Number?'));
+console.log(n70 + 5);
+
+const n71 = Math.asinh(prompt('Number?'));
+console.log(n71 + 5);
+
+const n72 = Math.asinh(prompt('Number?'));
+console.log(n72 + 5);
+
