@@ -369,3 +369,13 @@ const n81 = Math.sinh(prompt('Number?'));
 console.log(n81 + 5);
 
 //Math.cosh()
+const n82 = Math.cosh(prompt('Number?'));
+console.log(n82 + 5);
+
+const n83 = Math.cosh(prompt('Number?'));
+console.log(n83 + 5);
+
+const n84 = Math.cosh(prompt('Number?'));
+console.log(n84 + 5);
+
+//Math.tanh()
