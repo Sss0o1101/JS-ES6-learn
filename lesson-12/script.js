@@ -346,3 +346,13 @@ console.log(n74 + 5);
 const n75 = Math.acosh(prompt('Number?'));
 console.log(n75 + 5);
 
+
+//Math.atanh()
+const n76 = Math.atanh(prompt('Number?'));
+console.log(n76 + 5);
+
+const n77 = Math.atanh(prompt('Number?'));
+console.log(n77 + 5);
+
+const n78 = Math.atanh(prompt('Number?'));
+console.log(n78 + 5);
