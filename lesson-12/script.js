@@ -312,3 +312,14 @@ console.log(n65 + 5);
 
 const n66 = Math.atan2(prompt('Number?'));
 console.log(n66 + 5);
+
+
+//Math.hypot()
+const n67 = Math.hypot(prompt('Number?'));
+console.log(n67 + 5);
+
+const n68 = Math.hypot(prompt('Number?'));
+console.log(n68 + 5);
+
+const n69 = Math.hypot(prompt('Number?'));
+console.log(n69 + 5);
