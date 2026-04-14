@@ -379,3 +379,11 @@ const n84 = Math.cosh(prompt('Number?'));
 console.log(n84 + 5);
 
 //Math.tanh()
+const n85 = Math.tanh(prompt('Number?'));
+console.log(n85 + 5);
+
+const n86 = Math.tanh(prompt('Number?'));
+console.log(n86 + 5);
+
+const n87 = Math.tanh(prompt('Number?'));
+console.log(n87 + 5);
