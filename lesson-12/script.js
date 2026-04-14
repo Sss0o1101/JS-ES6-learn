@@ -398,3 +398,14 @@ console.log(n89 + 5);
 
 const n90 = Math.trunc(prompt('Number?'));
 console.log(n90 + 5);
+
+
+//Math.sign()
+const n91 = Math.sign(prompt('Number?'));
+console.log(n91 + 5);
+
+const n92 = Math.sign(prompt('Number?'));
+console.log(n92 + 5);
+
+const n93 = Math.sign(prompt('Number?'));
+console.log(n93 + 5);
