@@ -387,3 +387,14 @@ console.log(n86 + 5);
 
 const n87 = Math.tanh(prompt('Number?'));
 console.log(n87 + 5);
+
+
+//Math.trunc()
+const n88 = Math.trunc(prompt('Number?'));
+console.log(n88 + 5);
+
+const n89 = Math.trunc(prompt('Number?'));
+console.log(n89 + 5);
+
+const n90 = Math.trunc(prompt('Number?'));
+console.log(n90 + 5);
