@@ -409,3 +409,14 @@ console.log(n92 + 5);
 
 const n93 = Math.sign(prompt('Number?'));
 console.log(n93 + 5);
+
+
+//Math.imul()
+const n94 = Math.imul(prompt('Number?'));
+console.log(n94 + 5);
+
+const n95 = Math.imul(prompt('Number?'));
+console.log(n95 + 5);
+
+const n96 = Math.imul(prompt('Number?'));
+console.log(n96 + 5);
