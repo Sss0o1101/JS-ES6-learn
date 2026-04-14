@@ -431,3 +431,16 @@ console.log(n98 + 5);
 
 const n99 = Math.fround(prompt('Number?'));
 console.log(n99 + 5);
+
+
+//Math.hypot()
+const n100 = Math.hypot(prompt('Number?'));
+console.log(n100 + 5);
+
+const n101 = Math.hypot(prompt('Number?'));
+console.log(n101 + 5);
+
+const n102 = Math.hypot(prompt('Number?'));
+console.log(n102 + 5);
+
+
