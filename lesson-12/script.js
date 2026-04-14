@@ -420,3 +420,14 @@ console.log(n95 + 5);
 
 const n96 = Math.imul(prompt('Number?'));
 console.log(n96 + 5);
+
+
+//Math.fround()
+const n97 = Math.fround(prompt('Number?'));
+console.log(n97 + 5);
+
+const n98 = Math.fround(prompt('Number?'));
+console.log(n98 + 5);
+
+const n99 = Math.fround(prompt('Number?'));
+console.log(n99 + 5);
