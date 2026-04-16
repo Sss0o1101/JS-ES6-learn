@@ -453,3 +453,16 @@ console.log(n104 + 5);
 
 const n105 = Math.expm1(prompt('Number?'));
 console.log(n105 + 5);
+
+
+//Math.log1p()
+const n106 = Math.log1p(prompt('Number?'));
+console.log(n106 + 5);
+
+const n107 = Math.log1p(prompt('Number?'));
+console.log(n107 + 5);
+
+const n108 = Math.log1p(prompt('Number?'));
+console.log(n108 + 5);
+
+//Math.log2()
