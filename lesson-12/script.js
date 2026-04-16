@@ -465,4 +465,6 @@ console.log(n107 + 5);
 const n108 = Math.log1p(prompt('Number?'));
 console.log(n108 + 5);
 
-//Math.log2()
+
+
+
