@@ -444,3 +444,12 @@ const n102 = Math.hypot(prompt('Number?'));
 console.log(n102 + 5);
 
 
+//Math.expm1()
+const n103 = Math.expm1(prompt('Number?'));
+console.log(n103 + 5);
+
+const n104 = Math.expm1(prompt('Number?'));
+console.log(n104 + 5);
+
+const n105 = Math.expm1(prompt('Number?'));
+console.log(n105 + 5);
