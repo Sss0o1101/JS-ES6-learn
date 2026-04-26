@@ -25,3 +25,5 @@ async function fetchData() {
 fetchData().then(data => {
   console.log(data);
 });
+
+
