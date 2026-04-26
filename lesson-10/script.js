@@ -21,3 +21,7 @@ async function fetchData() {
   const data = await response.json();
   return data;
 }
+
+fetchData().then(data => {
+  console.log(data);
+});
