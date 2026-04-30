@@ -270,4 +270,19 @@ array.includes((item) => {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
+const array = [1, 2, 3, 4, 5];
+array.forEach((item) => {
+    console.log(item);
+});
 
+array.map((item) => {
+    return item * 2;
+});
+
+array.filter((item) => {
+    return item > 3;
+});
+
+array.reduce((acc, item) => {
+    return acc + item;
+}, 0);
