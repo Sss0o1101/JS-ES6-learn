@@ -49,3 +49,5 @@ const colorBg = () => {
         //カラーコードを表示
         text.textContent = `カラーコード${colors.value}`;
 };
+
+//カラーピッカーが変更されたら colorBg を発動させる
