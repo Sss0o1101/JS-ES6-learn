@@ -27,3 +27,5 @@ const names = "sss";
     const color = document.querySelector("#colorPicker");
 
     text.textContent =`カラーコード : ${color.value}`;   // カラーコード : #000000
+
+//------------------------------------------------------------------------------
