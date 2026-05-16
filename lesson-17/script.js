@@ -41,3 +41,6 @@ color.addEventListener('input', colorBg);
 //------------------------------------------------------------------------------
 
 //関数 「カラーコード：」というテキストに続いて、選択した色のカラーコードを表示
+
+const text = document.querySelector("#colorText");
+const color = document.querySelector("#colorPicker");
