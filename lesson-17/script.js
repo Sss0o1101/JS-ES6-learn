@@ -31,3 +31,9 @@ const names = "sss";
 //------------------------------------------------------------------------------
 
 // addEventListener
+
+//何が.addEventListener（どうなったら,どうなる）;
+//color.addEventListener(選択されたら,カラーコードを表示する);
+
+const color = document.querySelector('#colorPicker');
+color.addEventListener('input', colorBg);
