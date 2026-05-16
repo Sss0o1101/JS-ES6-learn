@@ -61,3 +61,5 @@ color.addEventListener('input', colorBg);
 
 const text = document.querySelector('#colorText');
 const color = document.querySelector('#colorPicker')
+
+//カラーピッカーを操作した時の一連の動作
