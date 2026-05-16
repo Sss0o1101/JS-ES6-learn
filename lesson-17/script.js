@@ -44,3 +44,8 @@ color.addEventListener('input', colorBg);
 
 const text = document.querySelector("#colorText");
 const color = document.querySelector("#colorPicker");
+
+const colorBg = () => {
+        //カラーコードを表示
+        text.textContent = `カラーコード${colors.value}`;
+};
