@@ -58,3 +58,6 @@ color.addEventListener('input', colorBg);
 
 //  要素.style.プロパティ名 = 値；
 //document.body.style.backgroundColor = color.value;    // styleの変更
+
+const text = document.querySelector('#colorText');
+const color = document.querySelector('#colorPicker')
