@@ -91,3 +91,7 @@ const colorBg = () => {
             text.textContent = `カラーコード：${color.value} (white)`;
         }
 };
+
+
+//カラーピッカーが変更されたら colorBg を発動させる
+color.addEventListener('input', colorBg);
