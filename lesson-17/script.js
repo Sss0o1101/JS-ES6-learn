@@ -76,3 +76,8 @@ color.addEventListener("input" , colorBg);
 
 
 //------------------------------------------------------------------------------------------------------------
+
+//条件分岐
+
+const text = document.querySelector('#colorText');
+const color =document.querySelector('#colorPicker');
