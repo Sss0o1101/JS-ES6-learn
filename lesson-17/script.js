@@ -234,3 +234,6 @@ const getScrollPercent = () => {
 };
 
 window.addEventListener('scroll', getScrollPercent );
+
+
+/* 4-16 計算式を書いてみよう ------------------------------------------------------------------------------------------*/
