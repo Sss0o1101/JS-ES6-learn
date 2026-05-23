@@ -209,3 +209,6 @@ const getScrollPercent = () => {
 };
 
 window.addEventListener('scroll', getScrollPercent );
+
+
+/* 4-15 ページのサイズを取得しよう ------------------------------------------------------------------------------------------*/
