@@ -152,3 +152,6 @@ color.addEventListener('input', colorBg);
 /* 4-10 チェックでボタンを有効化 ------------------------------------------------------------------------------------------*/
 
 //<input id="btn" disabled> disabledの有無 (classではない)
+
+const isAgreed = document.querySelector('#check');
+const btn = document.querySelector('#btn');
