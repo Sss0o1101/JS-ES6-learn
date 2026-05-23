@@ -193,3 +193,5 @@ const btn = document.querySelector('#btn');
 isAgreed.addEventListener('change', () => {
         btn.disabled = !isAgreed.checked;
 });
+
+//------------------------------------------------------------------------------------------------------------
