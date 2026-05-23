@@ -198,3 +198,14 @@ isAgreed.addEventListener('change', () => {
 
 
 /* 4-13.14 ページのスクロール量を表示しよう ------------------------------------------------------------------------------------------*/
+
+// scrollY は縦方向のスクロール量
+// scrollX は横方向のスクロール量
+
+const getScrollPercent = () => {
+        //スクロール量
+        const scrolled = window.scrollY;
+        console.log(`${scrolled}スクロールされました`);
+};
+
+window.addEventListener('scroll', getScrollPercent );
