@@ -212,3 +212,8 @@ window.addEventListener('scroll', getScrollPercent );
 
 
 /* 4-15 ページのサイズを取得しよう ------------------------------------------------------------------------------------------*/
+
+// scrollHeight はページの高さ
+// scrollWidth はページの幅
+// clientHeight は表示域の高さ
+// clientWidth は表示域の幅
