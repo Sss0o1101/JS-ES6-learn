@@ -165,5 +165,11 @@ isAgreed.addEventListener('change', () => {
         }
 });
 
-//console.log("チェックされました");  
+//console.log("チェックされました");
 // console.log(isAgreed.checked);
+
+
+/* 4-11 別の書き方(省略) ------------------------------------------------------------------------------------------*/
+
+const isAgreed = document.querySelector('#check');
+const btn = document.querySelector('#btn');
