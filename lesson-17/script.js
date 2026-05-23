@@ -250,3 +250,5 @@ const getScrollPercent = () => {
 
         document.querySelector('#bar').style.width = `${percentage}%`;  //プログレスバーに幅を指定
 };
+
+window.addEventListener('scroll', getScrollPercent );
