@@ -217,3 +217,7 @@ window.addEventListener('scroll', getScrollPercent );
 // scrollWidth はページの幅
 // clientHeight は表示域の高さ
 // clientWidth は表示域の幅
+
+
+// const pageHeight = document.documentElement.scrollHeight;  //ページ全体の高さ
+// const viewHeight = document.documentElement.clientHeight;  //スクロールバーを含まない部分の高さ
