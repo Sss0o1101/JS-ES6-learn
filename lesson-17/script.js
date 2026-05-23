@@ -221,3 +221,16 @@ window.addEventListener('scroll', getScrollPercent );
 
 // const pageHeight = document.documentElement.scrollHeight;  //ページ全体の高さ
 // const viewHeight = document.documentElement.clientHeight;  //スクロールバーを含まない部分の高さ
+
+
+const getScrollPercent = () => {
+
+        const scrolled = window.scrollY;
+        console.log(`${scrolled}スクロールされました`);
+
+        const pageHeight = document.documentElement.scrollHeight;
+        const viewHeight = document.documentElement.clientHeight;
+        console.log(`ページの高さ:${pageHeight}、表示領域の高さ${viewHeight}`);
+};
+
+window.addEventListener('scroll', getScrollPercent );
