@@ -164,3 +164,6 @@ isAgreed.addEventListener('change', () => {
             btn.disabled = true;   //ボタンを無効化にする
         }
 });
+
+//console.log("チェックされました");  
+// console.log(isAgreed.checked);
