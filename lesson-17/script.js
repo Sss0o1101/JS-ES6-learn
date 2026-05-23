@@ -155,3 +155,12 @@ color.addEventListener('input', colorBg);
 
 const isAgreed = document.querySelector('#check');
 const btn = document.querySelector('#btn');
+
+isAgreed.addEventListener('change', () => {
+        //チェックボックスにチェックが入っているなら
+        if (isAgreed.checked === true) {
+            btn.disabled = false;  //ボタンの無効化を無しにする
+        } else {
+            btn.disabled = true;   //ボタンを無効化にする
+        }
+});
