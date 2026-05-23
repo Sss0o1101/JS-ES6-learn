@@ -186,3 +186,6 @@ isAgreed.addEventListener('change', () => {
 /* 4-11 別の書き方(省略) ! ------------------------------------------------------------------------------------------*/
 
 // isAgreedがtrueだから !はfalseになる
+
+const isAgreed = document.querySelector('#check');
+const btn = document.querySelector('#btn');
