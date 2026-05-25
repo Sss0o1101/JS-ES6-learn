@@ -264,3 +264,6 @@ window.addEventListener('scroll', () => {
 
         document.querySelector('#bar').style.width = `${percentage}%`;  //プログレスバーに幅を指定
 });
+
+
+/* ローディング中画面 (クラスの追加・削除) -------------------------------------------------------------*/
