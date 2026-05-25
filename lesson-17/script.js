@@ -277,3 +277,7 @@ window.addEventListener('load', () => {
     //ローディングが終わった時の処理
     loading.classList.add('loaded');
 });
+
+// メモ -------------------------------------------------------
+要素.classList.add('クラス1', 'クラス2')      //クラスの追加
+要素.classList.remove('クラス1', 'クラス2')   //クラスの削除
