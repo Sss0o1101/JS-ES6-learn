@@ -269,3 +269,11 @@ window.addEventListener('scroll', () => {
 /* ローディング中画面 (クラスの追加・削除) -------------------------------------------------------------*/
 
 //  要素.classList.add('クラス名')；
+
+
+const loading = document.querySelector('#loading');
+
+window.addEventListener('load', () => {
+    //ローディングが終わった時の処理
+    loading.classList.add('loaded');
+});
