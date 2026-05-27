@@ -327,3 +327,6 @@ text.addEventListener('keyup', () => {
 
 
 /* 文字によって表示を変える() ----------------------------------------------------------------*/
+
+const text = document.querySelector('#text');
+const count = document.querySelector('#count');
