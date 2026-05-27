@@ -301,3 +301,5 @@ btn.addEventListener('click', () => {
 
 
 /* if,else | ボタンのテキストを変更 ------------------------------------------------------------------------------------------*/
+
+const btn = document.querySelector('#btn');
