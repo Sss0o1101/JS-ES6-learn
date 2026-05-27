@@ -318,3 +318,4 @@ btn.addEventListener('click', () => {
 /* 入力した文字数を数えてみよう (length) -------------------------------------------------------------*/
 
 const text = document.querySelector('#text');
+const count = document.querySelector('#count');
