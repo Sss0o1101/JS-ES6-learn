@@ -386,3 +386,9 @@ const isAgreed = document.querySelector('#check');
 
 // scrollY は縦方向のスクロール量
 // scrollX は横方向のスクロール量
+
+const getScrollPercent = () => {
+        //スクロール量
+        const scrolled = window.scrollY;
+        console.log(`${scrolled}スクロールされました`);
+};
