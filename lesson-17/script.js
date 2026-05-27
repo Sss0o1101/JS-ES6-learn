@@ -371,3 +371,12 @@ const isAgreed = document.querySelector('#check');
 
 
 /* 別の書き方(省略) ! ------------------------------------------------------------------------------------------*/
+
+// isAgreedがtrueだから !はfalseになる
+
+    const isAgreed = document.querySelector('#check');
+    const btn = document.querySelector('#btn');
+
+    isAgreed.addEventListener('change', () => {
+        btn.disabled = !isAgreed.checked;
+});
