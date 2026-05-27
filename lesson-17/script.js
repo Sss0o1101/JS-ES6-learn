@@ -356,4 +356,15 @@ isAgreed.addEventListener('change', () => {
         }
 });
 
-/* 4-11 別の書き方(省略) ------------------------------------------------------------------------------------------*/
+/* 別の書き方(省略) ------------------------------------------------------------------------------------------*/
+
+const isAgreed = document.querySelector('#check');
+    const btn = document.querySelector('#btn');
+
+    isAgreed.addEventListener('change', () => {
+        if (isAgreed.checked) {
+            btn.disabled = false;
+        } else {
+            btn.disabled = true;
+        }
+});
