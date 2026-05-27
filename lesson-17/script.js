@@ -343,3 +343,6 @@ text.addEventListener('keyup', () => {
 
 
 /* チェックでボタンを有効化 ------------------------------------------------------------------------------------------*/
+
+const isAgreed = document.querySelector('#check');
+const btn = document.querySelector('#btn');
