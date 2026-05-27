@@ -380,3 +380,6 @@ const isAgreed = document.querySelector('#check');
     isAgreed.addEventListener('change', () => {
         btn.disabled = !isAgreed.checked;
 });
+
+
+/* ページのスクロール量を表示しよう ------------------------------------------------------------------------------------------*/
