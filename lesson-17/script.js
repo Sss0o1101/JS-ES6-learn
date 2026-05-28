@@ -415,3 +415,6 @@ const getScrollPercent = () => {
         const viewHeight = document.documentElement.clientHeight;
         console.log(`ページの高さ:${pageHeight}、表示領域の高さ${viewHeight}`);
 };
+
+
+window.addEventListener('scroll', getScrollPercent );
