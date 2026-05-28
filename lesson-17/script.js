@@ -396,3 +396,11 @@ const getScrollPercent = () => {
 window.addEventListener('scroll', getScrollPercent );
 
 /* ページのサイズを取得しよう ------------------------------------------------------------------------------------------*/
+
+// scrollHeight はページの高さ
+// scrollWidth はページの幅
+// clienHeight は表示域の高さ
+// clienWidth は表示域の幅
+
+// const pageHeight = document.documentElement.scrollHeight;  //ページの高さ
+// const viewHeight = document.documentElement.clientHeight;  //スクロールバーを含まない部分の高さ
