@@ -394,3 +394,5 @@ const getScrollPercent = () => {
 };
 
 window.addEventListener('scroll', getScrollPercent );
+
+/* ページのサイズを取得しよう ------------------------------------------------------------------------------------------*/
