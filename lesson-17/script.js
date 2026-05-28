@@ -425,3 +425,13 @@ window.addEventListener('scroll', getScrollPercent );
 // スクロールされた割合
 // const percentage = スクロール量 ÷ (ページ全体の高さ - 表示領域の高さ) × 100
 // console.log(percentage);
+
+
+const getScrollPercent = () => {
+        const scrolled = window.scrollY;
+        const pageHeight = document.documentElement.scrollHeight;
+        const viewHeight = document.documentElement.clientHeight;
+        const percentage = scrolled / (pageHeight - viewHeight) * 100;  //スクロールされた割合
+
+        document.querySelector('#bar').style.width = `${percentage}%`;  //プログレスバーに幅を指定
+};
