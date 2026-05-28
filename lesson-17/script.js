@@ -421,3 +421,7 @@ window.addEventListener('scroll', getScrollPercent );
 
 
 /* 計算式を書いてみよう ------------------------------------------------------------------------------------------*/
+
+// スクロールされた割合
+// const percentage = スクロール量 ÷ (ページ全体の高さ - 表示領域の高さ) × 100
+// console.log(percentage);
