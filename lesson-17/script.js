@@ -441,3 +441,13 @@ window.addEventListener('scroll', getScrollPercent );
 
 
 /* 無名関数で書いたもの ------------------------------------------------------------------------------------------*/
+
+
+window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY;
+        const pageHeight = document.documentElement.scrollHeight;
+        const viewHeight = document.documentElement.clientHeight;
+        const percentage = scrolled / (pageHeight - viewHeight) * 100;  //スクロールされた割合
+
+        document.querySelector('#bar').style.width = `${percentage}%`;  //プログレスバーに幅を指定
+});
