@@ -438,3 +438,6 @@ const getScrollPercent = () => {
 
 
 window.addEventListener('scroll', getScrollPercent );
+
+
+/* 無名関数で書いたもの ------------------------------------------------------------------------------------------*/
