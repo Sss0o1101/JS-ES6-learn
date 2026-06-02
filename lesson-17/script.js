@@ -490,3 +490,12 @@ const btn = document.querySelector('#btn');
 
 
 /* 入力した文字数を数えてみよう () -------------------------------------------------------------*/
+
+
+const text = document.querySelector('#text');
+    const count = document.querySelector('#count');
+
+    text.addEventListener('keyup', () => {
+        //キー入力された時の処理
+        count.textContent = text.value.length;
+});
