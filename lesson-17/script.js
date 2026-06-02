@@ -543,3 +543,5 @@ const menu = document.querySelector('#menu');
         'fig.jpg',
         'apple.jpg',
     ];
+
+    console.log(lists);
