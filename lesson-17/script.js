@@ -518,3 +518,6 @@ text.addEventListener('keyup', () => {
             count.classList.remove('alert');
         }
 });
+
+
+/*  作成する画像一覧ページの紹介 (insertAdjacentHTML) ------------------------------------------------------------------------------------------*/
