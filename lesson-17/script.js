@@ -544,4 +544,7 @@ const menu = document.querySelector('#menu');
         'apple.jpg',
     ];
 
-    console.log(lists);
+console.log(lists);
+
+const content = `<div><img src="./images/strawberry.jpg" alt=""></div>`;
+menu.insertAdjacentHTML('beforeend', content);
