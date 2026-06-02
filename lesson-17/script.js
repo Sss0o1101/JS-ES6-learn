@@ -499,3 +499,6 @@ const text = document.querySelector('#text');
         //キー入力された時の処理
         count.textContent = text.value.length;
 });
+
+
+/* 文字によって表示を変える() ----------------------------------------------------------------*/
