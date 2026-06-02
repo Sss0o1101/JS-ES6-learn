@@ -533,3 +533,13 @@ menu.insertAdjacentHTML('beforeend', content);   //これならstrawberry.jpgの
 
 
 /* 配列で複数の画像ファイル名をまとめよう (配列) ---------------------------------------------------------------------------------*/
+
+const menu = document.querySelector('#menu');
+    const lists = [
+        'strawberry.jpg',
+        'lime.jpg',
+        'mango.jpg',
+        'lemon.jpg',
+        'fig.jpg',
+        'apple.jpg',
+    ];
