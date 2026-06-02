@@ -505,3 +505,6 @@ const text = document.querySelector('#text');
 
 
 // // css .alert 使用
+
+const text = document.querySelector('#text');
+const count = document.querySelector('#count');
