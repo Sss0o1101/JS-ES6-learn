@@ -530,3 +530,6 @@ const content = `<div><img src="./images/strawberry.jpg" alt=""></div>`;
 
 // menu.textContent = content;   //これだと文字列として表示される
 menu.insertAdjacentHTML('beforeend', content);   //これならstrawberry.jpgの画像が表示される
+
+
+/* 配列で複数の画像ファイル名をまとめよう (配列) ---------------------------------------------------------------------------------*/
