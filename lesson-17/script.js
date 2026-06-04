@@ -596,3 +596,8 @@ const menu = document.querySelector('#menu');
         'fig.jpg',
         'apple.jpg',
     ];
+
+    for (let i = 0; i < 6; i++) {
+        const content = `<div><img src="./images/${lists[i]}" alt=""></div>`;
+        menu.insertAdjacentHTML('beforeend', content);
+    }
