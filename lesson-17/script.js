@@ -573,3 +573,5 @@ const menu = document.querySelector('#menu');
         <div><img src="./images/${lists[4]}" alt=""></div>
         <div><img src="./images/${lists[5]}" alt=""></div>
     `;
+
+     menu.insertAdjacentHTML('beforeend', content);
