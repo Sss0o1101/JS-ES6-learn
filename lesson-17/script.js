@@ -631,3 +631,13 @@ const menu = document.querySelector('#menu');
 
 
 /* オブジェクトで画像、メニュー名、値段をまとめよう ---------------------------------------------------------------------------------------------------------------*/
+
+
+    const menu = document.querySelector('#menu');
+
+    const strawberry = {
+        name: "イチゴ",
+        img: "strawberry.jpg",
+        price: 450,
+    };
+    console.log(strawberry); //{name: 'イチゴ', img: 'strawberry.jpg', price: 450}
