@@ -585,3 +585,14 @@ for (let i = 1; i <=10; i++) {
 }
 
 /* for文で画像を一覧表示しよう (for文) ---------------------------------------------------------------------------------------------------------------*/
+
+const menu = document.querySelector('#menu');
+
+    const lists = [
+        'strawberry.jpg',
+        'lime.jpg',
+        'mango.jpg',
+        'lemon.jpg',
+        'fig.jpg',
+        'apple.jpg',
+    ];
