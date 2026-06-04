@@ -604,3 +604,14 @@ const menu = document.querySelector('#menu');
 
 
 /*  lengthを使う場合(省略) ------------------------------------------------------*/
+
+   const menu = document.querySelector('#menu');
+
+    const lists = [
+        'strawberry.jpg',
+        'lime.jpg',
+        'mango.jpg',
+        'lemon.jpg',
+        'fig.jpg',
+        'apple.jpg',
+    ];
