@@ -575,3 +575,6 @@ const menu = document.querySelector('#menu');
     `;
 
      menu.insertAdjacentHTML('beforeend', content);
+
+
+/* for文の繰り返し処理を理解しよう (for文) ---------------------------------------------------------------------------------------------------------------*/
