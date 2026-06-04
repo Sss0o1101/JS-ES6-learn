@@ -601,3 +601,6 @@ const menu = document.querySelector('#menu');
         const content = `<div><img src="./images/${lists[i]}" alt=""></div>`;
         menu.insertAdjacentHTML('beforeend', content);
     }
+
+
+/*  lengthを使う場合(省略) ------------------------------------------------------*/
