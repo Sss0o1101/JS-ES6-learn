@@ -553,3 +553,14 @@ menu.insertAdjacentHTML('beforeend', content);
 
 
 /* 配列の中にある画像を表示しよう (配列) ---------------------------------------------------------------------------------------------------------------*/
+
+const menu = document.querySelector('#menu');
+
+    const lists = [
+        'strawberry.jpg',
+        'lime.jpg',
+        'mango.jpg',
+        'lemon.jpg',
+        'fig.jpg',
+        'apple.jpg',
+    ];
