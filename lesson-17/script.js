@@ -641,3 +641,12 @@ const menu = document.querySelector('#menu');
         price: 450,
     };
     console.log(strawberry); //{name: 'イチゴ', img: 'strawberry.jpg', price: 450}
+
+    const lists = [
+        'strawberry.jpg',
+        'lime.jpg',
+        'mango.jpg',
+        'lemon.jpg',
+        'fig.jpg',
+        'apple.jpg',
+    ];
