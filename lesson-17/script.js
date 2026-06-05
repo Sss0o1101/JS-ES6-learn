@@ -728,3 +728,4 @@ const menu = document.querySelector('#menu');
         },
     ];
 
+    console.log(lists[0].name); //イチゴ
