@@ -661,3 +661,11 @@ const menu = document.querySelector('#menu');
 
     //ドット記法        .name
     //ブランケット記法   ['name']
+
+    const menu = document.querySelector('#menu');
+
+    const strawberry = {
+        name: "イチゴ",
+        img: "strawberry.jpg",
+        price: 450,
+    };
