@@ -729,3 +729,9 @@ const menu = document.querySelector('#menu');
     ];
 
     console.log(lists[0].name); //イチゴ
+
+    for (let i = 0; i < lists.length; i++) {
+        const content = `<div><img src="./images/${lists[i].img}" alt=""></div>`;
+        menu.insertAdjacentHTML('beforeend', content);
+    }
+
