@@ -778,3 +778,7 @@ const menu = document.querySelector('#menu');
         const content = `<div><img src="./images/${lists[i].img}" alt=""><h2>${lists[i].name}</h2><p>${lists[i].price}円</p></div>`;  //.img をつける
         menu.insertAdjacentHTML('beforeend', content);
     }
+
+    //  .img をつける
+    // <h2>${lists[i].name}</h2><p>${lists[i].price}円</p>  によって、nameとpriceを取得
+
