@@ -669,3 +669,9 @@ const menu = document.querySelector('#menu');
         img: "strawberry.jpg",
         price: 450,
     };
+
+    console.log(strawberry); //{name: 'イチゴ', img: 'strawberry.jpg', price: 450}
+
+    console.log(strawberry.name);  //イチゴ
+    console.log(strawberry['img']);   //strawberry.jpg
+    console.log(strawberry.price); //450
