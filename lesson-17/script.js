@@ -675,3 +675,12 @@ const menu = document.querySelector('#menu');
     console.log(strawberry.name);  //イチゴ
     console.log(strawberry['img']);   //strawberry.jpg
     console.log(strawberry.price); //450
+
+    const lists = [
+        'strawberry.jpg',
+        'lime.jpg',
+        'mango.jpg',
+        'lemon.jpg',
+        'fig.jpg',
+        'apple.jpg',
+    ];
