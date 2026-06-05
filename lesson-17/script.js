@@ -773,3 +773,8 @@ const menu = document.querySelector('#menu');
             price: 400,
         },
     ];
+
+    for (let i = 0; i < lists.length; i++) {
+        const content = `<div><img src="./images/${lists[i].img}" alt=""><h2>${lists[i].name}</h2><p>${lists[i].price}円</p></div>`;  //.img をつける
+        menu.insertAdjacentHTML('beforeend', content);
+    }
