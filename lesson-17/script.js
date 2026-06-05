@@ -656,3 +656,5 @@ const menu = document.querySelector('#menu');
         menu.insertAdjacentHTML('beforeend', content);
     }
 
+
+/* オブジェクトの情報を取得しよう ---------------------------------------------------------------------------------------------------------------*/
