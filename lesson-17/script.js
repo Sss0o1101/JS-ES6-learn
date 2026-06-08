@@ -864,4 +864,4 @@ const menu = document.querySelector('#menu');
     kirinObserver.observe(document.querySelector('#kirin'));
 
     // IntersectionObserver オブジェクトプロパティ
-    //boundingClientRect //intersectionRect
+    //boundingClientRect //intersectionRect //intersectionRatio
