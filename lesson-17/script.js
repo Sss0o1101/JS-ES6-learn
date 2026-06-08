@@ -841,3 +841,7 @@ const menu = document.querySelector('#menu');
     const showKirin = () => {
         console.log("キリンさんです");
     };
+
+    //監視ロボットの設定
+    const kirinObserver = new IntersectionObserver(showKirin);   //関数名を設定、動作内容を指示する
+
