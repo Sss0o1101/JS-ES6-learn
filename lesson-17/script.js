@@ -882,3 +882,7 @@ const menu = document.querySelector('#menu');
 
     //監視ロボットの設定
     const kirinObserver = new IntersectionObserver(showKirin);
+
+    //kirinを監視するよう指示
+    kirinObserver.observe(document.querySelector('#kirin'));
+
