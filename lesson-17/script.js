@@ -836,3 +836,8 @@ const menu = document.querySelector('#menu');
 
 
 /* (IntersectionObserver)の仕組み  ------------------------------------------------------------------------------------------*/
+
+    //監視対象が範囲内に現れたら実行する動作
+    const showKirin = () => {
+        console.log("キリンさんです");
+    };
