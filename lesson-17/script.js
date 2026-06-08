@@ -855,3 +855,7 @@ const menu = document.querySelector('#menu');
     const showKirin = (entries) => {
         console.log(entries[0].target);   //[IntersectionObserverEntry]という配列が取得できた。
     };
+
+    //監視ロボットの設定
+    const kirinObserver = new IntersectionObserver(showKirin);   //関数名を設定、動作内容を指示する
+
