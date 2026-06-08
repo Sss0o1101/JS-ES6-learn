@@ -866,3 +866,6 @@ const menu = document.querySelector('#menu');
     // IntersectionObserver オブジェクトプロパティ
     //boundingClientRect //intersectionRect //intersectionRatio
     //isIntersecting //rootBounds //target //time
+
+
+/* 動きを加えてみよう  ------------------------------------------------------------------------------------------*/
