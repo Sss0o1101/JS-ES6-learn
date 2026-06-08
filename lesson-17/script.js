@@ -886,3 +886,4 @@ const menu = document.querySelector('#menu');
     //kirinを監視するよう指示
     kirinObserver.observe(document.querySelector('#kirin'));
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
