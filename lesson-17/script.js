@@ -850,3 +850,8 @@ const menu = document.querySelector('#menu');
 
 
 /* 交差状態の情報を見てみよう  ------------------------------------------------------------------------------------------*/
+
+    //監視対象が範囲内に現れたら実行する動作
+    const showKirin = (entries) => {
+        console.log(entries[0].target);   //[IntersectionObserverEntry]という配列が取得できた。
+    };
