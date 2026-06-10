@@ -899,3 +899,5 @@ const menu = document.querySelector('#menu');
 
 
 /* アニメーションの基本の書き方 ------------------------------------------------------------------------------------------*/
+
+    const heading = document.querySelector('#heading');
