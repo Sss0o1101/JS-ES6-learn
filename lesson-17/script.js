@@ -925,3 +925,8 @@ const menu = document.querySelector('#menu');
     //  easing...緩和,  fill...再生前後の状態  iterations...反復,
 
     const heading = document.querySelector('#heading');
+
+    const keyframes = {
+        opacity: [0,1],
+        translate: ['0 50px', 0],   //下から上に浮き上がるような視覚効果
+    };
