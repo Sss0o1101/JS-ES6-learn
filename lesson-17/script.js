@@ -907,3 +907,5 @@ const menu = document.querySelector('#menu');
 
 
 /* 複数のアニメーションを加えよう ------------------------------------------------------------------------------------------*/
+
+    const heading = document.querySelector('#heading');
