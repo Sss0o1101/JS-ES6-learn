@@ -909,3 +909,11 @@ const menu = document.querySelector('#menu');
 /* 複数のアニメーションを加えよう ------------------------------------------------------------------------------------------*/
 
     const heading = document.querySelector('#heading');
+
+    const keyframes = {
+        opacity: [0,1],
+        translate: ['0 50px', 0]   //浮かび上がる
+    };
+
+    heading.animate(keyframes, 2000);
+
