@@ -934,3 +934,5 @@ const menu = document.querySelector('#menu');
         duration: 2000,
         easing: 'ease',
     };
+
+    heading.animate(keyframes, options);
