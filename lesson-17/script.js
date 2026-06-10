@@ -897,3 +897,5 @@ const menu = document.querySelector('#menu');
     const heading = document.querySelector('#heading');
     heading.animate(keyframes, 2000);
 
+
+/* アニメーションの基本の書き方 ------------------------------------------------------------------------------------------*/
