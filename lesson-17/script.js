@@ -923,3 +923,5 @@ const menu = document.querySelector('#menu');
     //  動かす要素.animate(動かす内容, 動きの詳細)  動きの詳細 = options
     //  delay...遅延,  direction...方向,  duration(必須)...存続期間,
     //  easing...緩和,  fill...再生前後の状態  iterations...反復,
+
+    const heading = document.querySelector('#heading');
