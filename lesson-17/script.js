@@ -901,3 +901,7 @@ const menu = document.querySelector('#menu');
 /* アニメーションの基本の書き方 ------------------------------------------------------------------------------------------*/
 
     const heading = document.querySelector('#heading');
+    const keyframes = {opacity: [0,1],};
+
+    heading.animate(keyframes, 2000);  //2秒かけて文字が表示
+
