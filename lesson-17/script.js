@@ -893,3 +893,7 @@ const menu = document.querySelector('#menu');
 
     //  (Web Animation API)の書き方
     //  動かす要素.animate(動かす内容, 再生時間);   動かす内容 = キーフレーム
+
+    const heading = document.querySelector('#heading');
+    heading.animate(keyframes, 2000);
+
