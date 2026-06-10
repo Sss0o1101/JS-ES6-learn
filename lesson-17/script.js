@@ -930,3 +930,7 @@ const menu = document.querySelector('#menu');
         opacity: [0,1],
         translate: ['0 50px', 0],   //下から上に浮き上がるような視覚効果
     };
+    const options = {
+        duration: 2000,
+        easing: 'ease',
+    };
