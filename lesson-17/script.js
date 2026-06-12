@@ -951,3 +951,6 @@ const menu = document.querySelector('#menu');
     };
 
     items.animate(keyframes, options);
+
+
+/* 全てのクラスを取得しよう or 全ての写真の表示 ------------------------------------------------------------------------------------------*/
