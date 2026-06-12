@@ -945,3 +945,7 @@ const menu = document.querySelector('#menu');
     const keyframes = {
         opacity: [0, 1]     //透明から不透明
     };
+    const options = {
+        duration: 600,
+        fill: 'forwards',   //再生後、不透明を維持
+    };
