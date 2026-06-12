@@ -961,3 +961,7 @@ const menu = document.querySelector('#menu');
         const keyframes = {
             opacity: [0, 1]
     };
+    const options = {
+            duration: 600,
+            fill: 'forwards',
+    };
