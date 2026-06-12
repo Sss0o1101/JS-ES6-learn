@@ -949,3 +949,5 @@ const menu = document.querySelector('#menu');
         duration: 600,
         fill: 'forwards',   //再生後、不透明を維持
     };
+
+    items.animate(keyframes, options);
