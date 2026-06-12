@@ -939,3 +939,5 @@ const menu = document.querySelector('#menu');
 
 
 /* 複数の画像を順番に表示しよう  ------------------------------------------------------------------------------------------*/
+
+    const items = document.querySelector('.img-item');
