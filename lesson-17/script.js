@@ -956,3 +956,8 @@ const menu = document.querySelector('#menu');
 /* 全てのクラスを取得しよう or 全ての写真の表示 ------------------------------------------------------------------------------------------*/
 
     const items = document.querySelectorAll('.img-item');
+
+    for (let i = 0; i < items.length; i++) {
+        const keyframes = {
+            opacity: [0, 1]
+    };
