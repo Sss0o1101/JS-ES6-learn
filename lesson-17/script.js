@@ -954,3 +954,5 @@ const menu = document.querySelector('#menu');
 
 
 /* 全てのクラスを取得しよう or 全ての写真の表示 ------------------------------------------------------------------------------------------*/
+
+    const items = document.querySelectorAll('.img-item');
