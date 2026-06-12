@@ -965,3 +965,6 @@ const menu = document.querySelector('#menu');
             duration: 600,
             fill: 'forwards',
     };
+    
+    items[i].animate(keyframes, options);
+    }
