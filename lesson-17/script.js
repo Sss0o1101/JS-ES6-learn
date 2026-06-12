@@ -936,3 +936,6 @@ const menu = document.querySelector('#menu');
     };
 
     heading.animate(keyframes, options);
+
+
+/* 複数の画像を順番に表示しよう  ------------------------------------------------------------------------------------------*/
