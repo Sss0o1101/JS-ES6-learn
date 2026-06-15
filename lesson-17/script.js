@@ -985,4 +985,6 @@ const menu = document.querySelector('#menu');
         };
         items[i].animate(keyframes, options);
     }
-    
+
+
+/* 色々な画像のアニメーション | 回転、浮かび上がる (rotate:, translate:) ------------------------------------------------------------------------------------------*/
