@@ -983,3 +983,6 @@ const menu = document.querySelector('#menu');
             delay: i * 800,   //遅延
             fill: 'forwards',
         };
+        items[i].animate(keyframes, options);
+    }
+    
