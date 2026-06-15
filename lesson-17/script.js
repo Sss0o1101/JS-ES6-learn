@@ -970,3 +970,6 @@ const menu = document.querySelector('#menu');
     }
 
 /* 1つずつ遅延させよう ------------------------------------------------------------------------------------------*/
+
+
+    const items = document.querySelectorAll('.img-item');
