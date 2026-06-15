@@ -978,3 +978,8 @@ const menu = document.querySelector('#menu');
         const keyframes = {
             opacity: [0, 1]
         };
+    const options = {
+            duration: 600,
+            delay: i * 800,   //遅延
+            fill: 'forwards',
+        };
