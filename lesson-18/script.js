@@ -14,4 +14,10 @@ sum2(300, 700); // 1000
 
 //------
 
+function calculateTotal(price, amount, rate) {
+    return price * amount * rate;
+}
 
+console.log(calculateTotal(1000, 2, 1.08)); // 2160
+calculateTotal(1000, 2, 1.08); // 2160
+calculateTotal(); // NaN
