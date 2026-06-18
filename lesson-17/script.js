@@ -988,3 +988,5 @@ const menu = document.querySelector('#menu');
 
 
 /* 色々な画像のアニメーション | 回転、浮かび上がる (rotate:, translate:) ------------------------------------------------------------------------------------------*/
+
+    const items = document.querySelectorAll('.img-item');
