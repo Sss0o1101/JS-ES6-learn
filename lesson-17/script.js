@@ -1017,3 +1017,8 @@ const menu = document.querySelector('#menu');
             rotate: ['5deg', 0],   //回転
             scale: [1.1, 1]        //拡大の指定
     };
+    const options = {
+            duration: 600,
+            delay: i * 800,   //遅延
+            fill: 'forwards',
+    };
