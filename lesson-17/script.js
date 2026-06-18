@@ -997,3 +997,9 @@ const menu = document.querySelector('#menu');
             // rotate: ['x 90deg', 0],   //回転
             // translate: ['0 50px', 0], //浮かび上がる
     };
+
+    const options = {
+            duration: 600,
+            delay: i * 800,   //遅延
+            fill: 'forwards',
+    };
