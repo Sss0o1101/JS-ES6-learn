@@ -1010,3 +1010,10 @@ const menu = document.querySelector('#menu');
 /* ふわふわと回転しながら落ちてくる (rotate:, scale:)------------------------------------------------------------------------------------------*/
 
     const items = document.querySelectorAll('.img-item');
+
+    for (let i = 0; i < items.length; i++) {
+        const keyframes = {
+            opacity: [0, 1],
+            rotate: ['5deg', 0],   //回転
+            scale: [1.1, 1]        //拡大の指定
+    };
