@@ -1005,3 +1005,6 @@ const menu = document.querySelector('#menu');
 
     items[i].animate(keyframes, options);
     }
+
+
+/*ふわふわと回転しながら落ちてくる (rotate:, scale:)------------------------------------------------------------------------------------------*/
