@@ -990,3 +990,10 @@ const menu = document.querySelector('#menu');
 /* 色々な画像のアニメーション | 回転、浮かび上がる (rotate:, translate:) ------------------------------------------------------------------------------------------*/
 
     const items = document.querySelectorAll('.img-item');
+
+    for (let i = 0; i < items.length; i++) {
+        const keyframes = {
+            opacity: [0, 1],
+            // rotate: ['x 90deg', 0],   //回転
+            // translate: ['0 50px', 0], //浮かび上がる
+    };
