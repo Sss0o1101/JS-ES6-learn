@@ -1034,3 +1034,8 @@ const menu = document.querySelector('#menu');
         const keyframes = {
             filter: ['blur(20px)', 'blur(0)'],
         };
+        const options = {
+            duration: 600,
+            delay: i * 800,   //遅延
+            fill: 'forwards',
+        };
