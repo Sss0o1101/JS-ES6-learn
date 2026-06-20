@@ -3,3 +3,4 @@
 ================================================ */
 
     const loadingAreaGrey = document.querySelector('#loading');
+    const loadingAreaGreen = document.querySelector('#loading-screen');
