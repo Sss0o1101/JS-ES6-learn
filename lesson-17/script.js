@@ -1029,3 +1029,8 @@ const menu = document.querySelector('#menu');
 /* ぼかしが無くなりくっきり表示  (:, :)------------------------------------------------------------------------------------------*/
 
     const items = document.querySelectorAll('.img-item');
+
+    for (let i = 0; i < items.length; i++) {
+        const keyframes = {
+            filter: ['blur(20px)', 'blur(0)'],
+        };
