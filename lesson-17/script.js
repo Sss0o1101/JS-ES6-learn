@@ -1027,3 +1027,5 @@ const menu = document.querySelector('#menu');
     }
 
 /* ぼかしが無くなりくっきり表示  (:, :)------------------------------------------------------------------------------------------*/
+
+    const items = document.querySelectorAll('.img-item');
