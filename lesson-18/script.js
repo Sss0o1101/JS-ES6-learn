@@ -81,3 +81,4 @@ thumbImages.forEach( (thumbImage) => {
 スライドメニュー
 ================================================ */
 const menuOpen = document.querySelector('#menu-open');
+const menuClose = document.querySelector('#menu-close');
