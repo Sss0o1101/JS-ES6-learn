@@ -97,3 +97,5 @@ menuOpen.addEventListener('click', () => {
 
   //リンクをひとつずつ順に表示
   menuItems.forEach( (menuItem, index) => {
+     // console.log(menuItem);
+     // console.log(`${index}番目のリスト`);
