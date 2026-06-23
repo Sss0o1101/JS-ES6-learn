@@ -67,3 +67,11 @@ const thumbImages = document.querySelectorAll('.gallery-thumbnails img');
 //         mainImage.animate({opacity: [0, 1]}, 500);
 //     });
 // }
+
+// forEach
+thumbImages.forEach( (thumbImage) => {
+  thumbImage.addEventListener('mouseover', (event) => {
+    mainImage.src = event.target.src;
+    mainImage.animate({opacity: [0, 1]}, 500);
+  });
+});
