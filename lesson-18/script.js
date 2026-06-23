@@ -89,3 +89,6 @@ const menuOptions = {
   easing: 'ease',
   fill: 'forwards'
 };
+
+//メニューを開く
+menuOpen.addEventListener('click', () => {
