@@ -92,3 +92,6 @@ const menuOptions = {
 
 //メニューを開く
 menuOpen.addEventListener('click', () => {
+  // console.log("メニューを開く");
+  menuPanel.animate({translate: ['100vw', 0]}, menuOptions);
+
