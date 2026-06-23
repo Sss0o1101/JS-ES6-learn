@@ -83,3 +83,4 @@ thumbImages.forEach( (thumbImage) => {
 const menuOpen = document.querySelector('#menu-open');
 const menuClose = document.querySelector('#menu-close');
 const menuPanel = document.querySelector('#menu-panel');
+const menuItems = document.querySelectorAll('#menu-panel li');
