@@ -21,7 +21,15 @@
     }
   );
 
-
-
-
-   
+  // ローディング中（薄緑スクリーン）
+  loadingAreaGreen.animate(
+    {
+      translate: ['0 100vh', '0 0', '0 -100vh']
+    },
+    {
+      duration: 2000,
+      delay: 800,
+      easing: 'ease',
+      fill: 'forwards',
+    }
+  );
