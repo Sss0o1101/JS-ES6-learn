@@ -110,3 +110,7 @@ menuOpen.addEventListener('click', () => {
         easing: 'ease',
         fill: 'forwards',
       },
+      );
+  });
+
+});
