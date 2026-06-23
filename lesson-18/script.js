@@ -104,3 +104,9 @@ menuOpen.addEventListener('click', () => {
         opacity: [0, 1],
         translate: ['2rem', 0]
       },
+      {
+        duration: 2400,
+        delay: 300 * index,
+        easing: 'ease',
+        fill: 'forwards',
+      },
