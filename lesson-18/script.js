@@ -58,3 +58,4 @@
 /*
 画像ギャラリー
 ================================================ */
+const mainImage = document.querySelector('.gallery-image img');
