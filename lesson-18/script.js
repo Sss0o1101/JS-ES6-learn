@@ -80,3 +80,4 @@ thumbImages.forEach( (thumbImage) => {
 /*
 スライドメニュー
 ================================================ */
+const menuOpen = document.querySelector('#menu-open');
