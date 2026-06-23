@@ -95,3 +95,5 @@ menuOpen.addEventListener('click', () => {
   // console.log("メニューを開く");
   menuPanel.animate({translate: ['100vw', 0]}, menuOptions);
 
+  //リンクをひとつずつ順に表示
+  menuItems.forEach( (menuItem, index) => {
