@@ -114,3 +114,6 @@ menuOpen.addEventListener('click', () => {
   });
 
 });
+
+
+//メニューを閉じる
