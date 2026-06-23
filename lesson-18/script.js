@@ -84,3 +84,8 @@ const menuOpen = document.querySelector('#menu-open');
 const menuClose = document.querySelector('#menu-close');
 const menuPanel = document.querySelector('#menu-panel');
 const menuItems = document.querySelectorAll('#menu-panel li');
+const menuOptions = {
+  duration: 1400,
+  easing: 'ease',
+  fill: 'forwards'
+};
