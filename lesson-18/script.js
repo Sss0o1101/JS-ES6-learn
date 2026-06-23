@@ -99,3 +99,8 @@ menuOpen.addEventListener('click', () => {
   menuItems.forEach( (menuItem, index) => {
      // console.log(menuItem);
      // console.log(`${index}番目のリスト`);
+     menuItem.animate(
+      {
+        opacity: [0, 1],
+        translate: ['2rem', 0]
+      },
