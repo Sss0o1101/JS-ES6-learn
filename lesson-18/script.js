@@ -75,3 +75,8 @@ thumbImages.forEach( (thumbImage) => {
     mainImage.animate({opacity: [0, 1]}, 500);
   });
 });
+
+
+/*
+スライドメニュー
+================================================ */
