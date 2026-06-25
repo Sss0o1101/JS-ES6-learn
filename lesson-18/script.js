@@ -146,3 +146,6 @@ const animateFade = (entries, obs) => {
           easing: 'ease',
           fill: 'forwards',
         }
+      );
+      // 一度ふわっと表示されたら監視をやめる
+      obs.unobserve(entry.target);
