@@ -153,3 +153,6 @@ const animateFade = (entries, obs) => {
   });
 
 };
+
+
+// 監視設定
