@@ -157,3 +157,5 @@ const animateFade = (entries, obs) => {
 
 // 監視設定
 const fadeObserver = new IntersectionObserver(animateFade);
+
+// .fadeinを監視するよう指示
