@@ -130,3 +130,14 @@ menuClose.addEventListener('click', () => {
 ================================================ */
 
 // 監視対象が範囲内に現れたら実行する動作
+const animateFade = (entries, obs) => {
+  // console.log('ふわっ');
+  // console.log(entries);
+  entries.forEach( (entry) => {
+    if (entry.isIntersecting) {
+      entry.target.animate(
+        {
+          opacity: [0, 1],
+          filter: ['blur(.4rem)', 'blur(0)'],
+          translate: ['0 4rem', 0],
+        },
