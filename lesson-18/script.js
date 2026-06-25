@@ -149,3 +149,7 @@ const animateFade = (entries, obs) => {
       );
       // 一度ふわっと表示されたら監視をやめる
       obs.unobserve(entry.target);
+      }
+  });
+
+};
