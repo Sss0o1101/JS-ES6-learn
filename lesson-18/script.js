@@ -123,3 +123,8 @@ menuClose.addEventListener('click', () => {
     menuItem.animate({opacity: [1, 0]}, menuOptions);
   });
 });
+
+
+/*
+スクロールで要素を表示
+================================================ */
