@@ -30,3 +30,12 @@
 
 
 /* (else, if)  ------------------------------------------------------------------------------------------*/
+
+    const answers2 = window.prompt('ヘルプを見ますか？');
+        if (answers2 === 'yes') {
+            window.alert('タップでジャンプ、障害物を避けます。')
+        } else if (answers2 === 'no') {
+            window.alert('ゲーム起動中')
+        } else {
+            window.alert('yesかnoでお答えください')
+        }
