@@ -47,3 +47,6 @@
 
     // //Math.floor・・・切り捨て  //parseInt(変換したい文字列)  //let 変数名;・・・先に変数の定義 (if文などで代入されるデータが変わる場合)
 
+
+    const number = Math.floor(Math.random() * 6);
+    const answer3 = parseInt(window.prompt('数当てゲーム。0~5の数字を入力してね'));
