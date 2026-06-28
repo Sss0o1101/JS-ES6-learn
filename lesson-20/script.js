@@ -20,3 +20,8 @@
 
     let answer = window.prompt('ヘルプを見ますか？');
     console.log(answer);
+
+    const answers = window.prompt('ヘルプを見ますか？');
+    if (answers === 'yes') {
+        window.alert('タップでジャンプ、障害物を避けます。')
+    }
