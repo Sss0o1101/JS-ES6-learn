@@ -108,3 +108,4 @@
         enemy -= attack;
         count += 1;
     }
+    console.log(`${count}回でモンスターを倒した!`);
