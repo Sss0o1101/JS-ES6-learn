@@ -162,3 +162,4 @@
     let todos = ['デザインカンプ作成', 'データ整理', '勉強会申込', '牛乳買う'];
     console.log(todos[0]);  //デザインカンプ作成
     console.log(todos[1]);  //データ整理
+    console.log(todos[2]);  //勉強会申込
