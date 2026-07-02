@@ -164,3 +164,8 @@
     console.log(todos[1]);  //データ整理
     console.log(todos[2]);  //勉強会申込
     console.log(todos[3]);  //牛乳買う
+
+    // ch3-10
+    for (let item of todos) {
+        console.log(item);
+    }
