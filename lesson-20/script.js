@@ -143,3 +143,4 @@
     }
     console.log(fizzbuzz(15)); //fizzbuzz
     console.log(fizzbuzz(3));  //fizz
+    console.log(fizzbuzz(5));  //buzz
