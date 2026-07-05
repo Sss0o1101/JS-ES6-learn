@@ -207,3 +207,8 @@
 
     let answer4 = window.prompt('ヘルプを見ますか？');
     console.log(answer4);
+
+    const answers5 = window.prompt('ヘルプを見ますか？');
+    if (answers5 === 'yes') {
+        window.alert('タップでジャンプ、障害物を避けます。')
+    }
