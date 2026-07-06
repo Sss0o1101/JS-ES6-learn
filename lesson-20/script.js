@@ -237,4 +237,14 @@
     const number2 = Math.floor(Math.random() * 6);
     const answer7 = parseInt(window.prompt('数当てゲーム。0~5の数字を入力してね'));
 
-    let message;
+    let message2;
+    if (answer === number) {
+        message2 = 'あたり！';
+    } else if (answer < number) {
+        message2 = '残念でした！もっと大きい';
+    } else if (answer7 > number2) {
+        message2 = '残念でした！もっと小さい';
+    } else {
+        message = '0~5の数字を入力してね';
+    }
+    window.alert(message);
