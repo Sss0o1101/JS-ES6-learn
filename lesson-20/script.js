@@ -219,13 +219,13 @@
 /* (else, if)  ------------------------------------------------------------------------------------------*/
 
     const answers6 = window.prompt('ヘルプを見ますか？');
-        if (answers6 === 'yes') {
-            window.alert('タップでジャンプ、障害物を避けます。')
-        } else if (answers6 === 'no') {
-            window.alert('ゲーム起動中')
-        } else {
-            window.alert('yesかnoでお答えください')
-        }
+    if (answers6 === 'yes') {
+        window.alert('タップでジャンプ、障害物を避けます。')
+    } else if (answers6 === 'no') {
+        window.alert('ゲーム起動中')
+    } else {
+        window.alert('yesかnoでお答えください')
+    }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -258,3 +258,10 @@
 
     const hour2 = new Date().getHours();
 
+    if (hour >= 19 && hour < 21) {
+        window.alert('お弁当30%OFF!')
+    } else if (hour === 9 || hour === 15) {
+        window.alert('お弁当1個買ったら1個おまけ')
+    } else {
+        window.alert('お弁当はいかがですか')
+    }
