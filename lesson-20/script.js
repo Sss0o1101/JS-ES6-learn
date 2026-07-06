@@ -219,4 +219,10 @@
 /* (else, if)  ------------------------------------------------------------------------------------------*/
 
     const answers6 = window.prompt('ヘルプを見ますか？');
-    
+        if (answers6 === 'yes') {
+            window.alert('タップでジャンプ、障害物を避けます。')
+        } else if (answers6 === 'no') {
+            window.alert('ゲーム起動中')
+        } else {
+            window.alert('yesかnoでお答えください')
+        }
