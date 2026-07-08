@@ -306,3 +306,5 @@
     };
 
     console.log(`コーヒーメーカーの値段は${total(8000)}円の(税込)です。`);  //8800
+
+    document.querySelector('#output').textContent = `コーヒーメーカーの値段は${total(8000)}円の(税込)です。`;
