@@ -330,4 +330,10 @@
     console.log(fizzbuzz(15));
     console.log(fizzbuzz(3));
     console.log(fizzbuzz(5));
-    console.log(fizzbuzz(1));  
+    console.log(fizzbuzz(1));
+
+    let i2 = 1;
+    while (i2 <= 30) {
+        console.log(fizzbuzz(i2));
+        i2 += 1;
+    }
