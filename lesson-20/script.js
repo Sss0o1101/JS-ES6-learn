@@ -327,4 +327,5 @@
             return num;
         }
     }
-    console.log(fizzbuzz(15)); //fizzbuzz
+    console.log(fizzbuzz(15));
+    console.log(fizzbuzz(3));  
