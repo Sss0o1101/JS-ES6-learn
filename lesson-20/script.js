@@ -352,3 +352,8 @@
     for (let item of todos3) {
         console.log(item);
     }
+
+    //for文
+    for (let i = 0; i < todos.length; i++) {
+        console.log(todos[i]);
+    }
