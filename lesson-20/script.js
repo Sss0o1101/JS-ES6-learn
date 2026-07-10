@@ -375,3 +375,10 @@
 
     let todos4 = ['デザインカンプ作成', 'データ整理', '勉強会申込', '牛乳買う'];
     todos.push('歯医者に行く');
+
+    for (let item of todos4) {
+        // console.log(item);
+        const li = `<li>${item}</li>`;
+        // console.log(li);
+        document.querySelector('#list').insertAdjacentHTML("beforeend",li)
+    }
