@@ -357,3 +357,8 @@
     for (let i = 0; i < todos.length; i++) {
         console.log(todos[i]);
     }
+
+    // forEach
+    todos.forEach( (todo) => {
+        console.log(todo);
+    });
