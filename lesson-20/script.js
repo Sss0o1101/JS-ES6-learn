@@ -396,3 +396,4 @@
         stock: 3
     };
     console.log(jsbook);
+    console.log(jsbook.title);
