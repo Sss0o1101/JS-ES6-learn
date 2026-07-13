@@ -420,3 +420,5 @@
     // for (let p in jsbook) {
     //     console.log(p + '=' + jsbook[p]);
     // }
+
+    document.querySelector('#title').textContent = jsbook.title;
