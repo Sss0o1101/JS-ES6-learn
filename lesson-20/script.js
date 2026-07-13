@@ -424,3 +424,6 @@
     document.querySelector('#title').textContent = jsbook.title;
     document.querySelector('#price').textContent = `${jsbook.price}円`;
     document.querySelector('#stock').textContent = jsbook.stock;
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
