@@ -398,3 +398,6 @@
     console.log(jsbook);
     console.log(jsbook.title);
     console.log(jsbook['price']);
+
+
+    jsbook.stock = 10;
