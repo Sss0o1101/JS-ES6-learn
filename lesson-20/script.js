@@ -402,3 +402,4 @@
 
     jsbook.stock = 10;
     // jsbook['stock'] = 10;
+    console.log(jsbook.stock);
