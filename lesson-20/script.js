@@ -422,3 +422,4 @@
     // }
 
     document.querySelector('#title').textContent = jsbook.title;
+    document.querySelector('#price').textContent = `${jsbook.price}円`;
