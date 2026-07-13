@@ -395,3 +395,4 @@
         price: 2500,
         stock: 3
     };
+    console.log(jsbook);
