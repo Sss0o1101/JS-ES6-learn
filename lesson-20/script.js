@@ -447,3 +447,10 @@
 /* (else, if)  ------------------------------------------------------------------------------------------*/
 
     const answers9 = window.prompt('ヘルプを見ますか？');
+    if (answers === 'yes') {
+            window.alert('タップでジャンプ、障害物を避けます。')
+        } else if (answers === 'no') {
+            window.alert('ゲーム起動中')
+        } else {
+            window.alert('yesかnoでお答えください')
+        }
