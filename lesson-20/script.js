@@ -476,3 +476,4 @@
     } else {
         message = '0~5の数字を入力してね';
     }
+    window.alert(message);
