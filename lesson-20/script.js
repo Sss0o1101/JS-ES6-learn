@@ -463,3 +463,4 @@
 
     //Math.floor・・・切り捨て  //parseInt(変換したい文字列)  //let 変数名;・・・先に変数の定義 (if文などで代入されるデータが変わる場合)
 
+    const number3 = Math.floor(Math.random() * 6);
