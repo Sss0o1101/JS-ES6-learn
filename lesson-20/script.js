@@ -486,3 +486,11 @@
     //new Date()・・・現在の時刻を取得する  //getHours()・・・ページを開いた「時」を24時間で取得して定数hourに代入
 
     const hour3 = new Date().getHours();
+
+    if (hour3 >= 19 && hour3 < 21) {
+        window.alert('お弁当30%OFF!')
+    } else if (hour3 === 9 || hour3 === 15) {
+        window.alert('お弁当1個買ったら1個おまけ')
+    } else {
+        window.alert('お弁当はいかがですか')
+    }
