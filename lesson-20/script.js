@@ -465,3 +465,5 @@
 
     const number3 = Math.floor(Math.random() * 6);
     const answer10 = parseInt(window.prompt('数当てゲーム。0~5の数字を入力してね'));
+
+    let message;
