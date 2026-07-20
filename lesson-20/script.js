@@ -515,3 +515,4 @@
 
     let enemy = 100;
     let count = 0;
+    window.alert('戦闘スタート');
