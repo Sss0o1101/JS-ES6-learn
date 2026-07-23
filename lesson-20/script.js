@@ -564,3 +564,9 @@
     console.log(fizzbuzz2(3));  //fizz
     console.log(fizzbuzz2(5));  //buzz
     console.log(fizzbuzz2(1));  //return num;
+
+    let i = 1;
+    while (i <= 30) {
+        console.log(fizzbuzz2(i));
+        i += 1;
+    }
