@@ -563,4 +563,4 @@
     console.log(fizzbuzz2(15)); //fizzbuzz
     console.log(fizzbuzz2(3));  //fizz
     console.log(fizzbuzz2(5));  //buzz
-    
+    console.log(fizzbuzz2(1));  //return num;
