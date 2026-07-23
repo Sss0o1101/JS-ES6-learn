@@ -560,3 +560,4 @@
             return num;
         }
     }
+    console.log(fizzbuzz2(15)); //fizzbuzz
