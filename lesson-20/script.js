@@ -561,3 +561,4 @@
         }
     }
     console.log(fizzbuzz2(15)); //fizzbuzz
+    console.log(fizzbuzz2(3));  //fizz
