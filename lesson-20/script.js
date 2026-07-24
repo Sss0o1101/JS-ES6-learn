@@ -594,3 +594,9 @@
 /* -------------------------------------------------------------------------------------------------------------------------------------*/
 
     //event.preventDefault();
+
+    document.querySelector('#form').onsubmit = function (event) {
+        event.preventDefault();  //action属性で指定されたページに移動を防ぐ
+        const search = document.querySelector('#form').word.value;
+        document.querySelector('#output').textContent = `「${search}の検索中...`;
+    };
