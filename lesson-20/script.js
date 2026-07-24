@@ -614,3 +614,10 @@
     const date = now.getDate();
     const hour = now.getHours();
     const min = now.getMinutes();
+
+    let ampm = '';
+    if (hour < 12) {
+        ampm = 'a.m.';
+    } else {
+        ampm = 'p.m.';
+    }
