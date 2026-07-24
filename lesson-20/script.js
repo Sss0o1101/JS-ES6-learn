@@ -621,3 +621,5 @@
     } else {
         ampm = 'p.m.';
     }
+
+    const output = `${year}/${month + 1}/${date} ${hour % 12}:${min}${ampm}`;
