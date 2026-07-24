@@ -609,3 +609,4 @@
     const time = document.querySelector('#time');
 
     const now = new Date();  //初期化
+    const year = now.getFullYear();
