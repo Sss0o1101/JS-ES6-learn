@@ -611,3 +611,4 @@
     const now = new Date();  //初期化
     const year = now.getFullYear();
     const month = now.getMonth();  //「実際の月-1」の数字が取得される
+    const date = now.getDate();
