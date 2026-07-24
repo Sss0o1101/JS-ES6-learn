@@ -613,3 +613,4 @@
     const month = now.getMonth();  //「実際の月-1」の数字が取得される
     const date = now.getDate();
     const hour = now.getHours();
+    const min = now.getMinutes();
