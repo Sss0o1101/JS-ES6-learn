@@ -600,3 +600,5 @@
         const search = document.querySelector('#form').word.value;
         document.querySelector('#output').textContent = `「${search}の検索中...`;
     };
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
