@@ -656,4 +656,5 @@
 
         const rest = due.getTime() - now.getTime();
         const sec = Math.floor(rest / 1000) % 60;
+        const min = Math.floor(rest / 1000 / 60) % 60;
     }
