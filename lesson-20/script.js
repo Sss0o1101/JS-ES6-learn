@@ -633,3 +633,4 @@
 
     const pi = document.querySelector('#pi');
     const floor = document.querySelector('#floor');
+    const output = document.querySelector('#output');
