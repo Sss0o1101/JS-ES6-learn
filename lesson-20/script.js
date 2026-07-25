@@ -643,3 +643,5 @@
         const mover = 10 ** digit;
         return Math.floor(num * mover) / mover;
     }
+
+    output.textContent = point(Math.PI, 2);
