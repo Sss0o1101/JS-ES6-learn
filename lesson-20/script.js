@@ -660,4 +660,6 @@
         const hours = Math.floor(rest / 1000 / 60 / 60) % 24;
         const days = Math.floor(rest / 1000 / 60 / 60/ 24);
         const count = [days, hours, min, sec];
+
+        return count;
     }
