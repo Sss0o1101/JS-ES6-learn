@@ -637,3 +637,5 @@
 
     pi.textContent = Math.PI;
     floor.textContent = Math.floor(Math.PI);
+
+    // 小数第2位で切り捨て
