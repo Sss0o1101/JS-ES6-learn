@@ -639,3 +639,7 @@
     floor.textContent = Math.floor(Math.PI);
 
     // 小数第2位で切り捨て
+    function point (num, digit) {
+        const mover = 10 ** digit;
+        return Math.floor(num * mover) / mover;
+    }
