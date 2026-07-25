@@ -653,4 +653,6 @@
 
     function countdown(due) {
         const now = new Date();
+
+        const rest = due.getTime() - now.getTime();
     }
