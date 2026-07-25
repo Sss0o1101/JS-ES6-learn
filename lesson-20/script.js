@@ -636,3 +636,4 @@
     const output = document.querySelector('#output');
 
     pi.textContent = Math.PI;
+    floor.textContent = Math.floor(Math.PI);
