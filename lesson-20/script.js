@@ -670,3 +670,4 @@
     goal.setSeconds(59);
 
     console.log(countdown(goal));
+    const counter = countdown(goal)
