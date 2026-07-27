@@ -668,3 +668,5 @@
     goal.setHours(23);
     goal.setMinutes(59);
     goal.setSeconds(59);
+
+    console.log(countdown(goal));
