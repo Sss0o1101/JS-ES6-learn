@@ -670,4 +670,5 @@
     goal.setSeconds(59);
 
     console.log(countdown(goal));
-    const counter = countdown(goal)
+    const counter = countdown(goal);
+    const time = `${counter[1]}時間${counter[2]}分${counter[3]}秒`
