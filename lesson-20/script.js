@@ -666,3 +666,4 @@
 
     let goal = new Date();
     goal.setHours(23);
+    goal.setMinutes(59);
