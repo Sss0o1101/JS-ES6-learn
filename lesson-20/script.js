@@ -717,3 +717,5 @@
     array.slice(0, 3);
 
     array.splice(0, 3);
+
+    array.join(',');
