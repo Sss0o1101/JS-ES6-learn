@@ -708,4 +708,6 @@
         return item > 3;
     });
 
-    
+    array.sort((a, b) => {
+        return a - b;
+    });
