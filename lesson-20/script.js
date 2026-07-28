@@ -711,3 +711,5 @@
     array.sort((a, b) => {
         return a - b;
     });
+
+    array.reverse();
