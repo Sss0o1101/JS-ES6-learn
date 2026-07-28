@@ -700,4 +700,8 @@
         return item > 3;
     });
 
+    array.findIndex((item) => {
+        return item > 3;
+    });
+
     
