@@ -719,3 +719,5 @@
     array.splice(0, 3);
 
     array.join(',');
+
+    array.push(6);
