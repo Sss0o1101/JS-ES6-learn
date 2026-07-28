@@ -721,3 +721,5 @@
     array.join(',');
 
     array.push(6);
+
+    array.pop();
