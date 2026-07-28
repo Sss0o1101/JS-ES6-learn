@@ -687,3 +687,7 @@
     array.forEach((item) => {
         console.log(item);
     });
+
+    array.filter((item) => {
+        return item > 3;
+    });
