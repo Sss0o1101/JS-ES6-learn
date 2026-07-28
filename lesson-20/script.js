@@ -713,3 +713,5 @@
     });
 
     array.reverse();
+
+    array.slice(0, 3);
