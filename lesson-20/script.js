@@ -727,3 +727,5 @@
     array.shift();
 
     array.unshift(0);
+
+    array.concat([7, 8, 9]);
