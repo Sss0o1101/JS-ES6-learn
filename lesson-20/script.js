@@ -728,7 +728,7 @@
 
     array.unshift(0);  //配列の要素を追加する
 
-    array.concat([7, 8, 9]);
+    array.concat([7, 8, 9]);  //配列の要素を結合する
 
     array.slice(0, 3);
 
