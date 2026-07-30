@@ -725,3 +725,5 @@
     array.pop();
 
     array.shift();
+
+    array.unshift(0);
