@@ -712,7 +712,7 @@
         return a - b;
     });
 
-    array.reverse();
+    array.reverse();  //配列の要素を逆順にする
 
     array.slice(0, 3);
 
@@ -757,5 +757,3 @@
     array.findIndex((item) => {
         return item > 3;
     });
-
-    
