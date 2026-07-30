@@ -720,7 +720,7 @@
 
     array.join(',');  //配列の要素を結合する
 
-    array.push(6);
+    array.push(6);  //配列の要素を追加する
 
     array.pop();
 
