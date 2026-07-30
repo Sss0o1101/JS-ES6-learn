@@ -718,7 +718,7 @@
 
     array.splice(0, 3);  //配列の要素を削除する
 
-    array.join(',');
+    array.join(',');  //配列の要素を結合する
 
     array.push(6);
 
