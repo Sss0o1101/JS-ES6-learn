@@ -741,3 +741,7 @@
     array.map((item) => {
         return item * 2;
     });
+
+    array.filter((item) => {
+        return item > 3;
+    });
