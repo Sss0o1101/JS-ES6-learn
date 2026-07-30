@@ -726,7 +726,7 @@
 
     array.shift();  //配列の要素を削除する
 
-    array.unshift(0);
+    array.unshift(0);  //配列の要素を追加する
 
     array.concat([7, 8, 9]);
 
