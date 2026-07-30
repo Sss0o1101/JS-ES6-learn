@@ -722,7 +722,7 @@
 
     array.push(6);  //配列の要素を追加する
 
-    array.pop();
+    array.pop();  //配列の要素を削除する
 
     array.shift();
 
