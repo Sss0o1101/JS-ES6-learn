@@ -729,3 +729,5 @@
     array.unshift(0);
 
     array.concat([7, 8, 9]);
+
+    array.slice(0, 3);
