@@ -723,3 +723,5 @@
     array.push(6);
 
     array.pop();
+
+    array.shift();
