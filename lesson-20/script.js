@@ -724,7 +724,7 @@
 
     array.pop();  //配列の要素を削除する
 
-    array.shift();
+    array.shift();  //配列の要素を削除する
 
     array.unshift(0);
 
