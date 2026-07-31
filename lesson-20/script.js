@@ -746,7 +746,7 @@
         return item > 3;
     });
 
-    array.reduce((acc, item) => {
+    array.reduce((acc, item) => {  //配列の要素を累積する
         return acc + item;
     }, 0);
 
