@@ -734,7 +734,7 @@
 
     array.splice(0, 3);  //配列の要素を削除する
 
-    array.forEach((item) => {
+    array.forEach((item) => { //配列の要素を繰り返し処理する
         console.log(item);
     });
 
