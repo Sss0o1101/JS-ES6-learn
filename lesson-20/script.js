@@ -750,7 +750,7 @@
         return acc + item;
     }, 0);
 
-    array.find((item) => {
+    array.find((item) => {  //配列の要素を検索する
         return item > 3;
     });
 
