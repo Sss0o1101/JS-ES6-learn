@@ -742,7 +742,7 @@
         return item * 2;
     });
 
-    array.filter((item) => {
+    array.filter((item) => {   //配列の要素をフィルタリングする
         return item > 3;
     });
 
