@@ -768,6 +768,6 @@
 
     array.reverse();  //配列の要素を逆順にする
 
-    array.slice(0, 3);
+    array.slice(0, 3);  //配列の要素を切り取る
 
     array.splice(0, 3);
