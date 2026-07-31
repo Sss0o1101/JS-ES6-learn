@@ -758,7 +758,7 @@
         return item > 3;
     });
 
-    array.includes((item) => {
+    array.includes((item) => {  //配列の要素を検索する
         return item > 3;
     });
 
