@@ -762,7 +762,7 @@
         return item > 3;
     });
 
-    array.sort((a, b) => {
+    array.sort((a, b) => {  //配列の要素をソートする
         return a - b;
     });
 
