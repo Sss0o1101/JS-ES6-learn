@@ -766,5 +766,6 @@
         return a - b;
     });
 
-
     array.reverse();
+
+    array.slice(0, 3);
