@@ -738,7 +738,7 @@
         console.log(item);
     });
 
-    array.map((item) => {
+    array.map((item) => {  //配列の要素を繰り返し処理する
         return item * 2;
     });
 
