@@ -754,7 +754,7 @@
         return item > 3;
     });
 
-    array.findIndex((item) => {
+    array.findIndex((item) => {  //配列の要素を検索する
         return item > 3;
     });
 
