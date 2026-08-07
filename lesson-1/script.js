@@ -380,6 +380,7 @@ Math.ceil(5.3); // 6
 Math.floor(5.3); // 5
 Math.round(5.3); // 5
 Math.max(1, 2, 3, 4, 5); // 5
+Math.min(1, 2, 3, 4, 5); // 1
 
 
 
