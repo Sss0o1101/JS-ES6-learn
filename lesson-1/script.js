@@ -365,6 +365,9 @@ console.log(pikachu2.level); // 20
 //parseInt()
 console.log(parseInt("3"));  //3
 
+//Math
+Math.PI; // 3.141592653589793
+
 
 
 
