@@ -7,7 +7,7 @@
 //console.log('test');
 
 const foo = 1 + 1;
-console.log(foo);
+console.log(foo); // 2
 
 const bar = 2 * 2;
 console.log(bar);
