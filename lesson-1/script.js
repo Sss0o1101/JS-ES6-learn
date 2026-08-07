@@ -366,6 +366,9 @@ console.log(pikachu2.level); // 20
 console.log(parseInt("3"));  //3
 //parseFloat()
 console.log(parseFloat("3.14")); //3.14
+//toFixed()
+console.log(3.14.toFixed(2)); //3.14
+
 
 //Math
 Math.PI; // 3.141592653589793
