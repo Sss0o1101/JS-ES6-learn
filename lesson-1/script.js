@@ -54,7 +54,7 @@ console.log(y); // 30
 データ型 ------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-console.log(typeof x); // number
+console.log(typeof x); // undefined
 console.log(typeof "Hello World"); // string
 console.log(typeof 10); // number
 console.log(typeof true); // boolean
