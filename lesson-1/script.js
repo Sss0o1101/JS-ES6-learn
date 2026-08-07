@@ -19,7 +19,7 @@ const qux = 4 - 4;
 console.log(qux); // 0
 
 const quux = 5 % 5;
-console.log(quux);
+console.log(quux); // 0
 
 const quuux = 6 ** 6;
 console.log(quuux);
