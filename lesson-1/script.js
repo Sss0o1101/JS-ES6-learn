@@ -372,8 +372,6 @@ console.log(3.14.toFixed(2)); //3.14
 console.log(isNaN("3")); //false
 
 
-
-
 //Math
 Math.PI; // 3.141592653589793
 Math.ceil(5.3); // 6
