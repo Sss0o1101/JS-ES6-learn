@@ -10,7 +10,7 @@ const foo = 1 + 1;
 console.log(foo); // 2
 
 const bar = 2 * 2;
-console.log(bar);
+console.log(bar); // 4
 
 const baz = 3 / 3;
 console.log(baz);
