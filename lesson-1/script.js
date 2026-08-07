@@ -22,7 +22,7 @@ const quux = 5 % 5;
 console.log(quux); // 0
 
 const quuux = 6 ** 6;
-console.log(quuux);
+console.log(quuux); // 46656
 
 
 // テストのコード
