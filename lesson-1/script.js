@@ -404,6 +404,8 @@ window.innerHeight; // 1080
 window.location.href; // https://www.google.com
 window.document; // <html>...</html>
 
+document.querySelector("p"); // <p>Hello World</p>
+
 
 
 
