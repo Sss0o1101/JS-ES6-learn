@@ -24,6 +24,8 @@ console.log(quux);
 const quuux = 6 ** 6;
 console.log(quuux);
 
+
+// テストのコード
 // foo, bar, test, x, foobar, hoge, fuga, piyo
 
 /*
