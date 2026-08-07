@@ -413,6 +413,11 @@ document.getElementsByClassName("myClass"); // [<div class="myClass">Hello World
 
 
 
+// ---
+
+// $は変数がHTMLを格納していることを明示するためのプレフィックス
+const $foo = document.querySelectorAll(".bar");
+
 
 
 
