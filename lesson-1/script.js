@@ -407,6 +407,8 @@ window.document; // <html>...</html>
 document.querySelector("p"); // <p>Hello World</p>
 document.querySelectorAll("p"); // [<p>Hello World</p>, <p>Hello World</p>]
 
+document.getElementById("myId"); // <div id="myId">Hello World</div>
+
 
 
 
