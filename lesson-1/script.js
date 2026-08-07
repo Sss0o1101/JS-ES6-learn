@@ -401,6 +401,7 @@ console.log(oldVersions.concat(nerVersions));  //["赤", "緑", "青", "ルビ�
 
 window.innerWidth; // 1920
 window.innerHeight; // 1080
+window.location.href; // https://www.google.com
 
 
 
