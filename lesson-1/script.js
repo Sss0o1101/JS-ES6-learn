@@ -368,6 +368,8 @@ console.log(parseInt("3"));  //3
 console.log(parseFloat("3.14")); //3.14
 //toFixed()
 console.log(3.14.toFixed(2)); //3.14
+//Math.random()
+console.log(Math.random());
 
 
 //Math
