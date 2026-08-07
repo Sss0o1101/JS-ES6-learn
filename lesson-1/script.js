@@ -96,17 +96,17 @@ for (let index = 0; index < array.length; index++) {
 // --------------------------------------------------------------
 
 const questions = [
-  "現在の日本の総理利大臣の名前は？",
+  "現在の日本の総理大臣の名前は？",
   "令和7年は西暦で言うと何年？",
   "最も人口が多い国はどこ？",
 ];
 
 for (let index = 0; index < questions.length; index++) {
-  console.log(questions[index]); // 現在の日本の総理利大臣の名前は？ 令和7年は西暦で言うと何年？ 最も人口が多い国はどこ？
+  console.log(questions[index]); // ループごとに1つずつ出力: 現在の日本の総理大臣の名前は？ → 令和7年は西暦で言うと何年？ → 最も人口が多い国はどこ？
 }
 
 // 同じ
-console.log(questions[0]); // 現在の日本の総理利大臣の名前は？
+console.log(questions[0]); // 現在の日本の総理大臣の名前は？
 console.log(questions[1]); // 令和7年は西暦で言うと何年？
 console.log(questions[2]); // 最も人口が多い国はどこ？
 
@@ -228,16 +228,16 @@ changeDarkMode({
 // 戻り値---------------------------------------------------------------
 
 const getSeason = () => {
-    const month = new Date().getMonth() + 1;
-    if (month >= 3 && month <= 5) {
-        return 'spring';
-    } else if (month >= 6 && month <= 8) {
-        return 'summer';
-    } else if (month >= 9 && month <= 11) {
-        return 'autumn';
-    } else {
-        return 'winter';
-    }
+  const month = new Date().getMonth() + 1;
+  if (month >= 3 && month <= 5) {
+    return 'spring';
+  } else if (month >= 6 && month <= 8) {
+    return 'summer';
+  } else if (month >= 9 && month <= 11) {
+    return 'autumn';
+  } else {
+    return 'winter';
+  }
 }
 
 const season = getSeason();
@@ -261,7 +261,7 @@ const hornDrill = (theirHP) => {
     }
 }
 
-hornDrill(100)
+hornDrill(100);
 
 
 
@@ -362,7 +362,7 @@ console.log(pikachu2.level); // 20
 標準組込み関数 ------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-
+parseInt("3") //3 
 
 
 
