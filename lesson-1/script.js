@@ -387,6 +387,8 @@ Math.pow(2, 3); // 8
 
 const myPokemons = ["サンダー", "ホウオウ", "スイクン", "ラティアス", "パルキア"];
 
+myPokemons.push("ミュウツー");
+
 
 
 
