@@ -13,10 +13,10 @@ const bar = 2 * 2;
 console.log(bar); // 4
 
 const baz = 3 / 3;
-console.log(baz);
+console.log(baz); // 1
 
 const qux = 4 - 4;
-console.log(qux);
+console.log(qux); // 0
 
 const quux = 5 % 5;
 console.log(quux);
