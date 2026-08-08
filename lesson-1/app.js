@@ -19,3 +19,12 @@ const $button = document.querySelector("#button");
 $button.addEventListener("click", () => {
     console.log("Clickされた!");
 });
+
+// -------------------------------------------------------------------------------------
+
+const $output = document.querySelector("#output");
+const $button2 = document.querySelector("#button2");
+
+$button2.addEventListener("click", () => {
+    $output.textContent = "ピカチュウ";
+});
