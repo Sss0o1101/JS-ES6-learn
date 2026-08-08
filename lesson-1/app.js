@@ -10,3 +10,7 @@ $timeline.appendChild($post);
 
 //window.addEventListener
 //document.addEventListener
+
+window.addEventListener("load", () => {
+    alert("読み込み完了")
+});
