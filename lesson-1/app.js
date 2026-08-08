@@ -14,3 +14,8 @@ $timeline.appendChild($post);
 window.addEventListener("load", () => {
     alert("読み込み完了")
 });
+
+const $button = document.querySelector("#button");
+$button.addEventListener("click", () => {
+    console.log("Clickされた！");
+});
