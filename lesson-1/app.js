@@ -6,7 +6,7 @@ const $timeline = document.querySelectorAll(".timeline")[0];
 $timeline.appendChild($post);
 
 
-// ---------------
+// -------------------------------------------------------------------------------------
 
 //window.addEventListener
 //document.addEventListener
@@ -17,5 +17,5 @@ window.addEventListener("load", () => {
 
 const $button = document.querySelector("#button");
 $button.addEventListener("click", () => {
-    console.log("Clickされた！");
+    console.log("Clickされた!");
 });
