@@ -8,3 +8,5 @@ $timeline.appendChild($post);
 
 // ---------------
 
+//window.addEventListener
+//document.addEventListener
