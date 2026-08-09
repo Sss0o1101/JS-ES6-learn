@@ -30,3 +30,14 @@ $button2.addEventListener("click", () => {
 });
 
 
+// -------------------------------------------------------------------------------------
+
+const $button3 = document.querySelector("#button3");
+
+$button3.addEventListener("click", () => {
+    if (Math.random() <= 0.2) {
+        alert("ピカチュウをゲット");
+    } else if (Math.random() <= 0.8) {
+        alert("ざんねん！もう少しでつかまえられたのに！");
+    }
+});
