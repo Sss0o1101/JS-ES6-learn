@@ -415,6 +415,7 @@ window.innerHeight; // 1080
 window.location.href; // https://www.google.com
 window.document; // <html>...</html>
 window.navigator.userAgent; // Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+window.navigator.language; // ja-JP
 
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
