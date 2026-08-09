@@ -372,6 +372,7 @@ console.log(3.14.toFixed(2)); //3.14
 console.log(isNaN("3")); //false
 
 
+
 //Math
 Math.PI; // 3.141592653589793
 Math.ceil(5.3); // 6
@@ -390,6 +391,7 @@ Math.atan(1); // 0.7853981633974483
 Math.atan2(1, 1); // 0.7853981633974483
 Math.exp(1); // 2.718281828459045
 Math.log(10); // 2.302585092994046
+
 
 
 // -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -412,6 +414,7 @@ window.innerWidth; // 1920
 window.innerHeight; // 1080
 window.location.href; // https://www.google.com
 window.document; // <html>...</html>
+window.navigator.userAgent; // Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
