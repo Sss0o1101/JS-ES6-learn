@@ -418,6 +418,7 @@ window.navigator.userAgent; // Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWe
 window.navigator.language; // ja-JP
 window.navigator.platform; // Win32
 window.navigator.onLine; // true
+window.history.back(); // 前のページに戻る
 
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
