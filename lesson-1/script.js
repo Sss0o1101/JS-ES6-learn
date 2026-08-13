@@ -428,6 +428,7 @@ window.history.pushState(state, title, url); // 状態を保存してページ�
 window.history.replaceState(state, title, url); // 状態を保存してページを移動する
 window.history.scrollRestoration; // auto, manual
 window.history.scrollBehavior; // smooth, auto, manual
+window.history.scrollTo(x, y); // スクロールを移動する
 
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
