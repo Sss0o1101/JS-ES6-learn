@@ -440,9 +440,7 @@ document.getElementsByName("myName"); // [<input name="myName">]
 
 document.createElement("p"); // <p></p>
 document.createTextNode("Hello World"); // Hello World
-
-
-
+document.appendChild(document.createElement("p")); // <p></p>
 
 // ---
 
