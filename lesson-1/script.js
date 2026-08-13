@@ -436,6 +436,7 @@ document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
 
 document.getElementById("myId"); // <div id="myId">Hello World</div>
 document.getElementsByClassName("myClass"); // [<div class="myClass">Hello World</div>, <div class="myClass">Hello World</div>]
+document.getElementsByName("myName"); // [<input name="myName">]
 
 
 
