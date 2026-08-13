@@ -439,6 +439,7 @@ document.getElementsByClassName("myClass"); // [<div class="myClass">Hello World
 document.getElementsByName("myName"); // [<input name="myName">]
 
 document.createElement("p"); // <p></p>
+document.createTextNode("Hello World"); // Hello World
 
 
 
