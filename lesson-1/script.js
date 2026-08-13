@@ -424,6 +424,7 @@ window.history.go(-1); // 前のページに戻る
 window.history.go(1); // 次のページに進む
 window.history.length; // 10
 window.history.state; // { ... }
+window.history.pushState(state, title, url); // 状態を保存してページを移動する
 
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
