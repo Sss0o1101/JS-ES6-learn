@@ -420,6 +420,7 @@ window.navigator.platform; // Win32
 window.navigator.onLine; // true
 window.history.back(); // 前のページに戻る
 window.history.forward(); // 次のページに進む
+window.history.go(-1); // 前のページに戻る
 
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
