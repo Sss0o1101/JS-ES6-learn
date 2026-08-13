@@ -422,6 +422,7 @@ window.history.back(); // 前のページに戻る
 window.history.forward(); // 次のページに進む
 window.history.go(-1); // 前のページに戻る
 window.history.go(1); // 次のページに進む
+window.history.length; // 10
 
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
