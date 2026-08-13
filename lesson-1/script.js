@@ -426,6 +426,7 @@ window.history.length; // 10
 window.history.state; // { ... }
 window.history.pushState(state, title, url); // 状態を保存してページを移動する
 window.history.replaceState(state, title, url); // 状態を保存してページを移動する
+window.history.scrollRestoration; // auto, manual
 
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
