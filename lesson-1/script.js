@@ -445,6 +445,9 @@ document.removeChild(document.createElement("p")); // <p></p>
 document.addEventListener("click", () => {
   console.log("クリックされました");
 });
+document.removeEventListener("click", () => {
+  console.log("クリックされました");
+});
 
 // ---
 
