@@ -431,6 +431,7 @@ window.history.scrollBehavior; // smooth, auto, manual
 window.history.scrollTo(x, y); // スクロールを移動する
 window.history.scrollBy(x, y); // スクロールを移動する
 
+
 document.querySelector("#p"); // <p>Hello World</p>
 document.querySelectorAll(".p"); // [<p>Hello World</p>, <p>Hello World</p>]
 
