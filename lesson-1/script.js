@@ -449,6 +449,7 @@ document.removeEventListener("click", () => {
   console.log("クリックされました");
 });
 
+
 // ---
 
 // $は変数がHTMLを格納していることを明示するためのプレフィックス
