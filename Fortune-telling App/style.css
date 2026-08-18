@@ -17,3 +17,10 @@ h1 {
     font-weight: normal;
     padding: 8px 0;
 }
+
+p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 24px 0;
+}
