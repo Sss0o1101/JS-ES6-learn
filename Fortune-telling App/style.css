@@ -10,3 +10,10 @@ section {
     text-align: center;
     color: red;
 }
+
+h1 {
+    margin: 0;
+    border-bottom: 2px solid red;
+    font-weight: normal;
+    padding: 8px 0;
+}
