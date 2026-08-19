@@ -3,9 +3,9 @@ const result = document.querySelector('#result');
 
 btn.addEventListener('click', () => {
     //result.textContent = n;
-    const result = ["大吉", "中吉", "小吉", "凶"];
+    const results = ["大吉", "中吉", "小吉", "凶"];
     const n = Math.floor(Math.random() * result.length);
-    result.textContent = result[n];
+    result.textContent = results[n];
 
 });
 
