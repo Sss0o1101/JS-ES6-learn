@@ -26,3 +26,11 @@ btn.addEventListener('click', () => {
 //     const results = ["大吉", "中吉", "凶"];
 //     result.textContent = results[n];
 // });
+
+// if (n === 0) {
+//     result.textContent = "大吉";
+// } else if (n === 1) {
+//     result.textContent = "中吉";
+// } else if (n === 2) {
+//     result.textContent = "凶";
+// }
