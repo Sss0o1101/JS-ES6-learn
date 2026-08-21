@@ -46,3 +46,7 @@ fieldset {
     display: flex;
     justify-content: space-between;
 }
+
+legend {
+    padding: 0 8px;
+}
