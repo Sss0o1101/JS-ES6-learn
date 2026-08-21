@@ -34,4 +34,6 @@ button:hover {
     opacity: .6;
 }
 
-
+button:active {
+    opacity: .4;
+}
