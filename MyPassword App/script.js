@@ -3,6 +3,7 @@ const passwordLength = document.querySelector('#password-length');
 const btn = document.querySelector('#btn');
 const result = document.querySelector('#result');
 const numbersCheckbox = document.querySelector('#numbers-checkbox');
+const symbolsCheckbox = document.querySelector('#symbols-checkbox');
 
 const letters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
