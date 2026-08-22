@@ -16,14 +16,14 @@ slider.addEventListener('input', () => {
 btn.addEventListener('click', () => {
     //result.textContent = letters[Math.floor(Math.random() * 26)];
 
-    if (numbersCheckbox === true) {
-
+    if (numbersCheckbox) {
+        seed += numbers;
     }
 
     let password = "";
     for (let i = 0; i < slider.value; i++) {
         //password += letters[Math.floor(Math.random() * 26)];
-        password += seed[Math.floor(Math.random() * 52)];     //* seed.length
+        password += seed[Math.floor(Math.random() * seed.length)];     //* 52
 
     }
 
