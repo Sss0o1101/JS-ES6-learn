@@ -6,7 +6,7 @@ const numbersCheckbox = document.querySelector('#numbers-checkbox');
 
 const letters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789"
-const seed = letters + letters.toUpperCase();
+let seed = letters + letters.toUpperCase();
 
 
 slider.addEventListener('input', () => {
@@ -16,11 +16,14 @@ slider.addEventListener('input', () => {
 btn.addEventListener('click', () => {
     //result.textContent = letters[Math.floor(Math.random() * 26)];
 
+    if (numbersCheckbox === true) {
+
+    }
+
     let password = "";
     for (let i = 0; i < slider.value; i++) {
         //password += letters[Math.floor(Math.random() * 26)];
         password += seed[Math.floor(Math.random() * 52)];     //* seed.length
-
 
     }
 
