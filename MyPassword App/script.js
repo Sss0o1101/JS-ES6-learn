@@ -9,5 +9,5 @@ slider.addEventListener('input', () => {
 });
 
 btn.addEventListener('click', () => {
-    result.textContent = 
+    result.textContent = letters[Math.floor(Math.random() * 26)];
 });
