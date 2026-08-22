@@ -18,10 +18,10 @@ slider.addEventListener('input', () => {
 btn.addEventListener('click', () => {
     //result.textContent = letters[Math.floor(Math.random() * 26)];
 
-    if (numbersCheckbox) {
+    if (numbersCheckbox.checked) {
         seed += numbers;
     }
-    if (symbolsCheckbox) {
+    if (symbolsCheckbox.checked) {
         seed += symbols;
     }
 
