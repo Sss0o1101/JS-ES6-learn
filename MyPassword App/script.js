@@ -5,6 +5,7 @@ const result = document.querySelector('#result');
 const numbersCheckbox = document.querySelector('#numbers-checkbox');
 
 const letters = "abcdefghijklmnopqrstuvwxyz";
+const numbers = "0123456789"
 const seed = letters + letters.toUpperCase();
 
 
