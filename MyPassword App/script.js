@@ -8,7 +8,7 @@ const symbolsCheckbox = document.querySelector('#symbols-checkbox');
 const letters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
 const symbols = "!#$%&()";
-let seed = letters + letters.toUpperCase();
+
 
 
 slider.addEventListener('input', () => {
@@ -17,6 +17,7 @@ slider.addEventListener('input', () => {
 
 btn.addEventListener('click', () => {
     //result.textContent = letters[Math.floor(Math.random() * 26)];
+    let seed = letters + letters.toUpperCase();
 
     if (numbersCheckbox.checked) {
         seed += numbers;
