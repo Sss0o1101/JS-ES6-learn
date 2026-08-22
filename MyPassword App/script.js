@@ -9,5 +9,5 @@ slider.addEventListener('input', () => {
 });
 
 btn.addEventListener('click', () => {
-    result.textContent = 'clicked!'
+    result.textContent = 
 });
