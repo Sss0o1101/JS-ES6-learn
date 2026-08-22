@@ -4,6 +4,7 @@ const btn = document.querySelector('#btn');
 const result = document.querySelector('#result');
 
 const letters = "abcdefghijklmnopqrstuvwxyz";
+const seed = letters + letters.toUpperCase();
 
 
 slider.addEventListener('input', () => {
@@ -15,7 +16,8 @@ btn.addEventListener('click', () => {
 
     let password = "";
     for (let i = 0; i < slider.value; i++) {
-        password += letters[Math.floor(Math.random() * 26)];
+        //password += letters[Math.floor(Math.random() * 26)];
+        password += seed[Math.floor(Math.random() * 52)];     //* seed.length
 
 
     }
