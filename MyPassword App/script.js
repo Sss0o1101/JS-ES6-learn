@@ -21,6 +21,9 @@ btn.addEventListener('click', () => {
     if (numbersCheckbox) {
         seed += numbers;
     }
+    if (symbolsCheckbox) {
+        seed += symbols;
+    }
 
     let password = "";
     for (let i = 0; i < slider.value; i++) {
