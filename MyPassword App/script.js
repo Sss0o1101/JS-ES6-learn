@@ -13,6 +13,7 @@ slider.addEventListener('input', () => {
 btn.addEventListener('click', () => {
     //result.textContent = letters[Math.floor(Math.random() * 26)];
 
+    let password = "";
     for (let i = 0; i < slider.value; i++) {
         password += letters[Math.floor(Math.random() * 26)];
 
