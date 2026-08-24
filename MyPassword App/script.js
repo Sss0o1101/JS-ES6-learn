@@ -28,6 +28,7 @@ slider.addEventListener('input', () => {
 
 btn.addEventListener('click', () => {
     //result.textContent = letters[Math.floor(Math.random() * 26)];
+    
     let seed = letters + letters.toUpperCase();
 
     if (numbersCheckbox.checked) {
