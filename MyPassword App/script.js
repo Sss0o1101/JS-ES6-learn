@@ -3,6 +3,8 @@ const showPassword = () => {
     const numbersCheckbox = document.querySelector('#numbers-checkbox');
     const symbolsCheckbox = document.querySelector('#symbols-checkbox');
 
+    const letters = "abcdefghijklmnopqrstuvwxyz";
+
 }
 
 const slider = document.querySelector('#slider');
@@ -12,7 +14,7 @@ const btn = document.querySelector('#btn');
 //const numbersCheckbox = document.querySelector('#numbers-checkbox');
 //const symbolsCheckbox = document.querySelector('#symbols-checkbox');
 
-const letters = "abcdefghijklmnopqrstuvwxyz";
+//const letters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
 const symbols = "!#$%&()";
 
