@@ -1,3 +1,7 @@
+const showPassword = () => {
+
+}
+
 const slider = document.querySelector('#slider');
 const passwordLength = document.querySelector('#password-length');
 const btn = document.querySelector('#btn');
