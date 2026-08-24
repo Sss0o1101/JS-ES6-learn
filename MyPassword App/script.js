@@ -7,6 +7,24 @@ const showPassword = () => {
     const numbers = "0123456789";
     const symbols = "!#$%&()";
 
+    let seed = letters + letters.toUpperCase();
+
+    if (numbersCheckbox.checked) {
+        seed += numbers;
+    }
+    if (symbolsCheckbox.checked) {
+        seed += symbols;
+    }
+
+    let password = "";
+    for (let i = 0; i < slider.value; i++) {
+        //password += letters[Math.floor(Math.random() * 26)];
+        password += seed[Math.floor(Math.random() * seed.length)];     //* 52
+
+    }
+
+    result.textContent = password;
+
 }
 
 const slider = document.querySelector('#slider');
@@ -27,23 +45,26 @@ slider.addEventListener('input', () => {
 });
 
 btn.addEventListener('click', () => {
+    showPassword();
     //result.textContent = letters[Math.floor(Math.random() * 26)];
-    
-    let seed = letters + letters.toUpperCase();
 
-    if (numbersCheckbox.checked) {
-        seed += numbers;
-    }
-    if (symbolsCheckbox.checked) {
-        seed += symbols;
-    }
+    // let seed = letters + letters.toUpperCase();
 
-    let password = "";
-    for (let i = 0; i < slider.value; i++) {
-        //password += letters[Math.floor(Math.random() * 26)];
-        password += seed[Math.floor(Math.random() * seed.length)];     //* 52
+    // if (numbersCheckbox.checked) {
+    //     seed += numbers;
+    // }
+    // if (symbolsCheckbox.checked) {
+    //     seed += symbols;
+    // }
 
-    }
+    // let password = "";
+    // for (let i = 0; i < slider.value; i++) {
+    //     //password += letters[Math.floor(Math.random() * 26)];
+    //     password += seed[Math.floor(Math.random() * seed.length)];     //* 52
 
-    result.textContent = password;
+    // }
+
+    // result.textContent = password;
 });
+
+showPassword();
