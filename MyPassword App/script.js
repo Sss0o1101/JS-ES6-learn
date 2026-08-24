@@ -5,6 +5,7 @@ const showPassword = () => {
 
     const letters = "abcdefghijklmnopqrstuvwxyz";
     const numbers = "0123456789";
+    const symbols = "!#$%&()";
 
 }
 
@@ -17,7 +18,7 @@ const btn = document.querySelector('#btn');
 
 //const letters = "abcdefghijklmnopqrstuvwxyz";
 //const numbers = "0123456789";
-const symbols = "!#$%&()";
+//const symbols = "!#$%&()";
 
 
 
