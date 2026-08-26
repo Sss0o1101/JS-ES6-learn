@@ -8,4 +8,8 @@ const btn = document.querySelector('#btn');
 // (1) 終了時刻を求める
 btn.addEventListener('click', () => {
     const endTime = new Date().getTime() + 3 * 1000;
+
+    // (2) 残り時間を求める
+    
+
 });
