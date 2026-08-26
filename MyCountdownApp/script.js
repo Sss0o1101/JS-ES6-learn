@@ -10,6 +10,6 @@ btn.addEventListener('click', () => {
     const endTime = new Date().getTime() + 3 * 1000;
 
     // (2) 残り時間を求める
-    
+    setInterval();
 
 });
