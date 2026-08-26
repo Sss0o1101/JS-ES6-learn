@@ -6,5 +6,5 @@ const btn = document.querySelector('#btn');
 // (3) タイマーの終了
 
 btn.addEventListener('click', () => {
-    const endTime = new Date().getTime() + 3;
+    const endTime = new Date().getTime() + 3 * 1000;
 });
