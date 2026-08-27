@@ -275,11 +275,5 @@ array.includes((item) => {
 const time = new Date();
 console.log(time);
 
-time.setFullYear(2026);
-time.setMonth(1);
-time.setDate(1);
-time.setHours(10);
-time.setMinutes(0);
-time.setSeconds(0);
-time.setMilliseconds(0);
+time.setTime(time.getTime() + 1000 * 60 * 60 * 24);
 console.log(time);
