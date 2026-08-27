@@ -12,3 +12,10 @@ btnElement.addEventListener('click', () => {
 
 
 // カウンター２
+const btnElement2 = document.querySelector('button');
+const pElement2 = document.querySelector('p');
+
+btnElement2.addEventListener('click', () => {
+  count = 0;
+  pElement2.textContent = count;
+});
