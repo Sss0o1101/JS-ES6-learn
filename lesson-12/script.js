@@ -14,8 +14,7 @@ console.log(time4);
 const time5 = new Date('2026-02-08T10:00:00+09:00');
 console.log(time5);
 
-const time6 = new Date('2026-02-08T10:00:00+09:00');
-console.log(time6);
+
 
 
 
@@ -31,6 +30,7 @@ console.log(time8.getTime());
 
 const time9 = new Date('2026-02-08T10:00:00+09:00');
 console.log(time9.getTime());
+
 
 
 
