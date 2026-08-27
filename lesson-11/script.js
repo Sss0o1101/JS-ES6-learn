@@ -282,3 +282,4 @@ time.setHours(10);
 time.setMinutes(0);
 time.setSeconds(0);
 time.setMilliseconds(0);
+console.log(time);
