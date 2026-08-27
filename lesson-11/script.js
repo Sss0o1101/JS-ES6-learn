@@ -280,3 +280,4 @@ time.setMonth(1);
 time.setDate(1);
 time.setHours(10);
 time.setMinutes(0);
+time.setSeconds(0);
