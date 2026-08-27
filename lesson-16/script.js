@@ -11,10 +11,4 @@ btnElement.addEventListener('click', () => {
 });
 
 
-//
-
-
-
-
-
-
+// カウンター２
