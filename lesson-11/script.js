@@ -279,3 +279,4 @@ time.setFullYear(2026);
 time.setMonth(1);
 time.setDate(1);
 time.setHours(10);
+time.setMinutes(0);
