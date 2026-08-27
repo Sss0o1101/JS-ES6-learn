@@ -281,3 +281,4 @@ time.setDate(1);
 time.setHours(10);
 time.setMinutes(0);
 time.setSeconds(0);
+time.setMilliseconds(0);
