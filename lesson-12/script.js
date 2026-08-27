@@ -14,6 +14,10 @@ console.log(time4);
 const time5 = new Date('2026-02-08T10:00:00+09:00');
 console.log(time5);
 
+const time6 = new Date('2026-02-08T10:00:00+09:00');
+console.log(time6);
+
+
 
 //gettime
 const time6 = new Date();
@@ -464,7 +468,3 @@ console.log(n107 + 5);
 
 const n108 = Math.log1p(prompt('Number?'));
 console.log(n108 + 5);
-
-
-
-
